@@ -1,111 +1,71 @@
 ```
- _______  _______  _______  _______  _______  _        _______  _        _______          
+ _______  _______  _______  _______  _______  _        _______  _        _______
 (  ____ \(  ____ \(  ____ )(  ____ \(  ____ \( (    /|(  ____ )( \      (  ___  )|\     /|
 | (    \/| (    \/| (    )|| (    \/| (    \/|  \  ( || (    )|| (      | (   ) |( \   / )
-| (_____ | |      | (____)|| (__    | (__    |   \ | || (____)|| |      | (___) | \ (_) / 
-(_____  )| |      |     __)|  __)   |  __)   | (\ \) ||  _____)| |      |  ___  |  \   /  
-      ) || |      | (\ (   | (      | (      | | \   || (      | |      | (   ) |   ) (   
-/\____) || (____/\| ) \ \__| (____/\| (____/\| )  \  || )      | (____/\| )   ( |   | |   
-\_______)(_______/|/   \__/(_______/(_______/|/    )_)|/       (_______/|/     \|   \_/ 
+| (_____ | |      | (____)|| (__    | (__    |   \ | || (____)|| |      | (___) | \ (_) /
+(_____  )| |      |     __)|  __)   |  __)   | (\ \) ||  _____)| |      |  ___  |  \   /
+      ) || |      | (\ (   | (      | (      | | \   || (      | |      | (   ) |   ) (
+/\____) || (____/\| ) \ \__| (____/\| (____/\| )  \  || )      | (____/\| )   ( |   | |
+\_______)(_______/|/   \__/(_______/(_______/|/    )_)|/       (_______/|/     \|   \_/
 ```
 
 # Configuration
 
-This document explains the structure and purpose of the `screenplay.config.js` object used for managing generic metadata and file paths.
+To build a screenplay, you need to have a folder with your `screenplay.txt` and `config.json`.
 
-## Overview
-
-The `config` object contains metadata for two language versions (`de` and `en`). It also specifies the directory where the finalized files will be stored. 
+See `example/` for reference.
 
 ### Structure
 
-```javascript
-const config = {
-    publishedPath: "./published",
-    de: {
-        file: "document.de.txt",
-        title: "Titel auf Deutsch",
-        author: "Max Mustermann",
-        status: "ENTWURF",
-        date: "Oktober 2023",
-        basedOn: "Inspiriert durch eine Idee",
-        basedOnFrom: "Mustermensch",
-        type: "Bericht"
-    },
-    en: {
-        file: "document.en.txt",
-        title: "Title in English",
-        author: "John Doe",
-        status: "DRAFT",
-        date: "October 2023",
-        basedOn: "Inspired by a Concept",
-        basedOnFrom: "Sample Person",
-        type: "Report"
+```json
+{
+  "meta": {
+    "title": "Katzenpabst - Das Erwachen",
+    "author": "Tilman Porschütz",
+    "status": "ENTWURF",
+    "date": "November 2024",
+    "basedOn": "Basiert auf Liedern",
+    "basedOnFrom": "Mandy Mozart",
+    "type": "Graphik Novelle"
+  },
+  "layout": {
+    "lineHeight": 4.8,
+    "linePerPage": 55,
+    "marginRight": 10,
+    "marginLeft": 35,
+    "marginTop": 22,
+    "pageNumberMarginTop": 10
+  },
+  "i18n": {
+    "common": {
+      "screenplay": "Drehbuch",
+      "untitled": "Ohne Titel",
+      "writtenBy": "Geschrieben von",
+      "by": "von",
+      "story": "Geschichte",
+      "chapter_one": "Kapitel",
+      "chapter_other": "Kapitel",
+      "scene_one": "Szene",
+      "scene_other": "Szenen",
+      "song_one": "Lied",
+      "song_other": "Lieder",
+      "character_one": "Charakter",
+      "character_other": "Charaktere",
+      "transition_one": "Übergang",
+      "transition_other": "Übergänge",
+      "line_one": "Zeile",
+      "line_other": "Zeilen",
+      "dialogue_one": "Dialog",
+      "dialogue_other": "Dialoge",
+      "action_one": "Regieanweisung",
+      "action_other": "Regieanweisungen",
+      "verse_one": "Strophe",
+      "verse_other": "Strophen",
+      "lyrics": "Liedtexte"
     }
-};
-
-export default config;
+  }
+}
 ```
-
-### Fields
-
-#### Global Config
-- **`publishedPath`**: Path to the directory where finalized files are stored.  
-  - Example: `./published`.
-
-#### Language-Specific Config
-Each language configuration (`de` for German, `en` for English) includes the following fields:
-
-- **`file`**: The filename of the file in the respective language.
-  - Example: `"document.de.txt"` (German), `"document.en.txt"` (English).
-  - Defaults: `"screenplay.de.txt"`
-
-- **`title`**: The title of the document in the respective language.
-  - Example: `"Titel auf Deutsch"` (German), `"Title in English"` (English).
-
-- **`author`**: The name of the author.
-  - Example: `"Max Mustermann"` (German), `"John Doe"` (English).
-
-- **`status`**: The current status of the document.
-  - Example: `"ENTWURF"` (German), `"DRAFT"` (English).
-
-- **`date`**: The date associated with the document.
-  - Example: `"Oktober 2023"` (German), `"October 2023"` (English).
-
-- **`basedOn`**: A description of the source of inspiration.
-  - Example: `"Inspiriert durch eine Idee"` (German), `"Inspired by a Concept"` (English).
-
-- **`basedOnFrom`**: The creator or originator of the inspiration.
-  - Example: `"Mustermensch"` (German), `"Sample Person"` (English).
-
-- **`type`**: The type or genre of the document.
-  - Example: `"Kurzfilm"` (German), `"Short movie"` (English).
-
-### Usage
-
-The `config` object can be imported into your application to dynamically retrieve metadata and file paths for document handling.
-
-```javascript
-import config from './config.js';
-
-console.log(config.publishedPath); // Outputs: "./published"
-console.log(config.de.title); // Outputs: "Titel auf Deutsch"
-console.log(config.en.file); // Outputs: "document.en.txt"
-```
-
-### Example Output
-
-- **German Metadata**:  
-  - Title: Titel auf Deutsch  
-  - Author: Max Mustermann  
-  - Status: ENTWURF  
-
-- **English Metadata**:  
-  - Title: Title in English  
-  - Author: John Doe  
-  - Status: DRAFT  
-
-This configuration format is flexible and can accommodate metadata for other languages or types of documents with minimal adjustments.
 
 # Available Scripts
 
@@ -114,68 +74,50 @@ These `npm run` scripts are available in the project.
 ---
 
 ### Installation
+
 ```bash
 npm install
 ```
+
 Installs all necessary dependencies for the project.
-
----
-
-### Build Scripts
-#### Build Screenplay
-   ```bash
-   npm run build:screenplay
-   ```
-   Generates a new version of the screenplay in multiple formats (PDF, JSON, Report PDF) and stores them in the `/published` directory.
-
-#### Watch Screenplay
-   ```bash
-   npm run watch:screenplay
-   ```
-   Watches for file changes in the screenplay and automatically rebuilds the PDF, JSON, and Report PDF in `/published`.
 
 ---
 
 ### Development Scripts
 
 #### Start Development Server
+
 ```bash
 npm run dev
 ```
+
 Starts the React frontend for viewing and testing the screenplay.
 
 #### Build Frontend
+
 ```bash
 npm run build
 ```
+
 Compiles the frontend into a production-ready build.
 
 #### Start Express Server
+
 ```bash
 npm run start:server
 ```
+
 Starts an Express.js server to serve the application.
 
 #### Watch Frontend
+
 ```bash
 npm run watch:frontend
 ```
+
 Watches files in the `./src` directory for changes and restarts the server if a watched file is modified.
 
 ---
-
-### Comprehensive Watch
-
-#### Watch All Changes
-```bash
-npm run watch
-```
-Watches for changes in:
-- `./src` directory (React files)
-- `./screenplay.de.txt` (German screenplay)
-- `./screenplay.en.txt` (English screenplay)
-
-Restarts or rebuilds using `nodemon` when changes are detected, ensuring a seamless development workflow. The watch targets JavaScript, JSON, text, and markdown files.
 
 # Writing Guide
 
@@ -198,6 +140,7 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ## Elements of the Screenplay
 
 ### Chapters
+
 - **Definition**: Chapters organize the screenplay and are marked with `# Kapitel` followed by the chapter number.
 - **Format**:
   ```
@@ -216,10 +159,11 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ---
 
 ### Scenes
+
 - **Definition**: Scenes represent narrative blocks and start with a number followed by the a tab and a scene heading.
 - **Format**:
   ```
-1   INT. LIVING ROOM - NIGHT
+  1   INT. LIVING ROOM - NIGHT
   ```
 - **Rules**:
   - The numbering should be sequential.
@@ -231,6 +175,7 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ---
 
 ### Actions
+
 - **Definition**: Actions describe the visual or narrative elements within a scene.
 - **Format**:
   - Indent each action line with **1 tab** or **4 spaces**.
@@ -242,6 +187,7 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ---
 
 ### Characters
+
 - **Definition**: A character's name is indented using **3 tabs** or **25–30 spaces**, written in uppercase.
 - **Optional Tags**:
   - Add **(cont'd)**, **(V.O.)**, **(subtitle)**, or **(O.S.)** after the character's name to indicate dialogue continuation, voice-over, subtitle, or off-screen delivery.
@@ -253,6 +199,7 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ---
 
 ### Dialogue
+
 - **Definition**: Dialogue is spoken text by a character, indented with **2 tabs** or **16 spaces**.
 - **Format**:
   ```
@@ -269,6 +216,7 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ---
 
 ### Parentheticals
+
 - **Definition**: Parentheticals provide short instructions on how dialogue is delivered. They appear on a new line, indented **1 tab less** than the character's name.
 - **Format**:
   ```
@@ -287,6 +235,7 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ---
 
 ### Songs
+
 - **Definition**: Songs are blocks marked by `# Lied` followed by the song number.
 - **Format**:
   ```
@@ -294,9 +243,11 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
     # Title of the Song
   ```
 - **Lyrics**:
+
   - Add lyrics line by line after the title.
   - Indent using **1 tab** or **4 spaces**.
   - Example:
+
     ```
     # 1. Lied
     # The Beginning
@@ -308,6 +259,7 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 ---
 
 ### 8. **Page Breaks**
+
 - **Definition**: Page breaks divide the screenplay and are represented by three or more dashes (`---`).
 - **Format**:
   ```
@@ -350,20 +302,20 @@ This guide outlines how to format your screenplay following Hollywood-inspired c
 
 Here’s the updated table with a row for **Songs** under **Non-conventional**:
 
-| **Element**           | **Add. markup**           | **Indent**          | **Tabs** | **Spaces** | **Special Rules**                      |
-|-----------------------|----------------------|---------------------|----------|------------|-----------------------------------------|
-| **Conventional**      |                      |                     |          |            |                                         |
-| Scene                 | None                | No                  |          |            | Must be written in **UPPERCASE**.      |
-| Action                | None                | Yes                 | 1        | 4          |                                         |
-| Character             | None                | Yes                 | 7        | 28         | Must be written in **UPPERCASE**.      |
-| Dialogue              | None                | Yes                 | 6        | 24         | Follows immediately after character.   |
-| Parenthetical         | None                | Yes                 | 2        | 16         | Enclosed in **()** and indented less.  |
-| Transition            | None                | Yes                 | 12       | 48         | Must be written in **UPPERCASE**.      |
-| **Non-conventional**  |                      |                     |          |            |                                         |
-| Chapter               | `# {n}. Kapitel`         | Yes                 | 1        |            | Prefixed by `# Kapitel` followed by number. |
-| Lyrics                | None                | Yes                 | 1        | 4          | Line-by-line text for songs.           |
-| Songs                 | `# {n}. Lied`            | Yes                 | 1        |            | Prefixed by `# Lied` followed by number. Song titles appear on the next line. |
-| Page Break            | `---`               | No                  |          |            | Represented by three or more dashes.   |
+| **Element**          | **Add. markup**  | **Indent** | **Tabs** | **Spaces** | **Special Rules**                                                             |
+| -------------------- | ---------------- | ---------- | -------- | ---------- | ----------------------------------------------------------------------------- |
+| **Conventional**     |                  |            |          |            |                                                                               |
+| Scene                | None             | No         |          |            | Must be written in **UPPERCASE**.                                             |
+| Action               | None             | Yes        | 1        | 4          |                                                                               |
+| Character            | None             | Yes        | 7        | 28         | Must be written in **UPPERCASE**.                                             |
+| Dialogue             | None             | Yes        | 6        | 24         | Follows immediately after character.                                          |
+| Parenthetical        | None             | Yes        | 2        | 16         | Enclosed in **()** and indented less.                                         |
+| Transition           | None             | Yes        | 12       | 48         | Must be written in **UPPERCASE**.                                             |
+| **Non-conventional** |                  |            |          |            |                                                                               |
+| Chapter              | `# {n}. Kapitel` | Yes        | 1        |            | Prefixed by `# Kapitel` followed by number.                                   |
+| Lyrics               | None             | Yes        | 1        | 4          | Line-by-line text for songs.                                                  |
+| Songs                | `# {n}. Lied`    | Yes        | 1        |            | Prefixed by `# Lied` followed by number. Song titles appear on the next line. |
+| Page Break           | `---`            | No         |          |            | Represented by three or more dashes.                                          |
 
 By following these conventions, your `screenplay.de.txt` will align with professional scriptwriting standards and ensure proper parsing by the system.
 
@@ -375,9 +327,9 @@ By following these conventions, your `screenplay.de.txt` will align with profess
 
 Currently implemented:
 
-* Copy plain text to your clip board of the following types `Action`, `Dialogue` (contains `Parenthetical` and `Character`), `Scene`, 
+- Copy plain text to your clip board of the following types `Action`, `Dialogue` (contains `Parenthetical` and `Character`), `Scene`,
 
-## Generative text and NLP features  
+## Generative text and NLP features
 
 Here is a list of the dependencies specified in your `package.json` file, along with links to their respective GitHub repositories:
 
@@ -388,11 +340,13 @@ Here’s the revised list, combining packages with a shared namespace and provid
 ## Dependencies
 
 - **@emotion** ([GitHub Repository](https://github.com/emotion-js/emotion))
+
   - `@emotion/css`: CSS-in-JS library.
   - `@emotion/react`: Emotion's React package.
   - `@emotion/styled`: Styled API for Emotion.
 
 - **@vitejs** ([GitHub Repository](https://github.com/vitejs/vite/tree/main/packages/plugin-react))
+
   - `@vitejs/plugin-react`: Vite plugin for React support.
 
 - **clsx** ([GitHub Repository](https://github.com/lukeed/clsx)): Utility for constructing `className` strings conditionally.
@@ -411,6 +365,7 @@ Here’s the revised list, combining packages with a shared namespace and provid
 ## DevDependencies
 
 - **@eslint** ([GitHub Repository](https://github.com/eslint/eslint))
+
   - `@eslint/js`: JavaScript linting implementation.
   - Includes React-specific plugins:
     - `eslint-plugin-react`: React linting rules.
@@ -418,6 +373,7 @@ Here’s the revised list, combining packages with a shared namespace and provid
     - `eslint-plugin-react-refresh`: Rules for React Refresh.
 
 - **@types/react** ([GitHub Repository](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react))
+
   - Includes `@types/react-dom`: TypeScript definitions for React DOM.
 
 - **globals** ([GitHub Repository](https://github.com/sindresorhus/globals)): Global variables and environments for ESLint.

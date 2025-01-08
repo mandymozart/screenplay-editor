@@ -48,8 +48,6 @@ async function renderScreenplay(options) {
   let currentYPosition = marginTop; // Starting position for text
 
   // Meta
-  console.log("i18n", i18n.common.untitled);
-  // return;
   const title = meta.title || i18n.common.untitled;
   // Add cover page
   doc.underlinedText(title, centerX, titleYOffset, { align: "center" });
