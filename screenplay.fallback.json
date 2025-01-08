@@ -1,0 +1,1839 @@
+{
+  "story": [
+    {
+      "id": 1,
+      "type": "chapter",
+      "item": {
+        "number": 0,
+        "title": "ALPTRAUM",
+        "subtitle": "(Transformation Exorcismus)",
+        "scenes": [
+          {
+            "number": 1,
+            "title": "BOOK",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Scanning a QR Code opens video in the browser. Alternativ werden Video Stills in der Print-Edition gezeigt."
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "title": "INT./EXT. VERSCHIEDENE ORTE - TAG & NACHT",
+            "events": [
+              {
+                "type": "Action",
+                "text": "KATZENPABST (mittelalt) hat ein Sphynx-Katzenkopf und ein Pabst-Gewand. Erscheint als PLF (Pabst-ähnliche Figur), KATZE und KATZENPABST."
+              },
+              {
+                "type": "Action",
+                "text": "Wir sehen KATZENPABST in einer Traumszene. Schweift als KATZE, im Kloster, gejagt, im Schnee, im Kampf, in einer einstürzenden Bibliothek, einem Friedhof. KATZENPABST versucht, mit Exorzismus sich selbst einen Dämonen auszutreiben."
+              },
+              {
+                "type": "Action",
+                "text": "Nach dem gescheiterten Versuch jedoch gibt, KATZENPABST auf und gibt sich dem KATZE sein hin. Leckt sich die Pfoten und legt sich gemütlich auf den Boden."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "type": "song",
+      "item": {
+        "number": 1,
+        "title": "ROAR LITTLE KITTY",
+        "lyrics": "\n    # ROAR LITTLE KITTY\n\n    1. Strophe  You feel like you\n                You can do anything\n                and you want to roar.\n                How did you get lost,\n                Yet, I am glad that you came,\n                I give shelter and love in here.\n\n    Chorus      So roar little kitty.\n                Roar little kitty,\n                Roar little kitty, roar.\n\n    2. Strophe  They tell you, you  are losing\n                    your mind.\n                They are just mocking your pride.\n                Take all of your anger and fears\n                    and decide!\n                There is millions of eyes,\n                but they are blind to my light.\n                My light, my light.\n\n    Bridge      Can you feel it?\n                Now you feel strong.\n                Like really really really strong.\n                Close your eyes\n                Take a deep breath\n                Electricity is running through\n                    your body\n\n"
+      }
+    },
+    {
+      "id": 3,
+      "type": "chapter",
+      "item": {
+        "number": 1,
+        "title": "DENIAL",
+        "subtitle": null,
+        "scenes": [
+          {
+            "number": 3,
+            "title": "INT. SCHLAFZIMMER - NACHT",
+            "events": [
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "EIN NEUER TAG, EIN ALTES SPIEL!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Die Musik von [[Roar Little Kitty]] endete abrupt. PLF erwachte aus einem grausamen Alptraum. Schweißüberzogen saß PLF im Bett, wir sahen die angsterfüllten Augen."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "schrie",
+                "text": [
+                  "MAMA! WTF?!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF kniff sich."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Puh! Es war nur ein Traum."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF schlief wieder ein."
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "title": "EXT. BRUTALISTISCHER WOHNBLOCK - SONNENAUFGANG",
+            "events": [
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "An jedem Morgen ging die Sonne auf, so war",
+                  "es geschrieben. Es verschob sich, das",
+                  "wussten wir, je nach Stellung der Erde zum",
+                  "Gestirn, und wenn es regnete oder zu viel",
+                  "Nebel gab, dann konnten wir dennoch sicher",
+                  "sein, dass es dahinter, seit Beginn der",
+                  "Zeit, dasselbe kosmische Ritual war. Auf",
+                  "Schatten folgte das Licht, und das Licht",
+                  "war das Leben, und mit dem Leben begann",
+                  "auch mein Tag."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "ZOOM AUF APARTMENT {KLINGEL}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Um dennoch sicherzugehen, dass dieser Tag",
+                  "auch funktionieren konnte, stellte ich mir",
+                  "einen Wecker, einen digitalen mit",
+                  "Atomuhrverbindung."
+                ]
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "title": "WERBUNG - SCHAFFHAUSEN",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Natürliches Vertrauen auf kosmische Präzision und traditionelles Handwerk. Natürlich von Schaffhausen. Bestellt euch euren Chronomat unter diesem Promo-Link mit 20% Rabatt https://bit.ly/catpope?code=schaffhausen Denn nur der früheste Vogel fängt den Wurm."
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "title": "INT. SCHLAFZIMMER - SONNENAUFGANG",
+            "events": [
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Wir predigenden Wesen hatten die Pflicht,",
+                  "als erste vor den Gemein(d)en zu",
+                  "erscheinen und die eigenen Rituale vor",
+                  "diesen zu erledigen. Daß gehörte eben",
+                  "dazu. Es machte mir nichts aus."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF lag im Bett. {KLINGELINGELING}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Dennoch, ich war geübt darin, dieses",
+                  "Ringen gekonnt zu ignorieren. Ja, geübt in",
+                  "der Technik des Lucid Dreamings, einer",
+                  "Methode, in der der Schlummerzustand",
+                  "genutzt werden konnte, um die eigenen",
+                  "Träume zu steuern. Eine wahnsinnig",
+                  "spannende Methode; es war, als erlebte und",
+                  "schrieb man gleichzeitig einen Film in",
+                  "aller Realität. Ein unbeschreibliches",
+                  "Gefühl der Macht."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "KATZE tauchte an der Tür zum Schlafzimmer auf. Abgeklärt sprang sie auf den Nachttisch und versetzte dem schallenden Gerät einen heftigen Schlag. Es schepperte zu Boden. PLF schreckte auf und war schlagartig wach."
+              },
+              {
+                "type": "Action",
+                "text": "Silhouette von PLF vor dem Fenster. Starrte aus dem Fenster."
+              },
+              {
+                "type": "Action",
+                "text": "NAHAUFNAHME DES GESICHTS"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Ich hasse Montag... (TM Garfield)"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF schleppte sich aus dem Schlafzimmer durch den Korridor in Richtung Küche."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Zuerst zur Küche. Eiweiß!"
+                ]
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "title": "INT. KÜCHE",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF schlug gekonnt zwei Eier synchron in einer Pfanne auf."
+              },
+              {
+                "type": "Action",
+                "text": "{ZISCH ZISCH ZISCH KNACKS BRZZZ ZISCH ZISCH}"
+              },
+              {
+                "type": "Action",
+                "text": "Plötzliche Drehung. In der Luft waren Bremsspuren. Mit halb geschlossenen Augen ging PLF ins Klo. Nahm ein Buch. Setzte sich."
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "title": "INT. KLO",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Das Buch hieß: „Das Dekameron“"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "dachte",
+                "text": [
+                  "Nunja, bissi profan, taugt aber zum",
+                  "Geschichten erzählen."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "las weiter",
+                "text": [
+                  "Er machte drei Ringe und gab einen an jeden",
+                  "Sohn?"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Dachte ich!"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Wer bestimmt die Wahrheit?",
+                  "Wer hält die Schlüssel zu den Geschichten?",
+                  "Wo liegt der Unterschied zwischen meinem",
+                  "Wollen und dem, was ich für andere inszeniere?",
+                  "Wem sollte ich dienen, wenn nicht drei Herren,",
+                  "der perfekten Dreieinigkeit des Chaos?"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "{SCHWUPP PLÄTSCHER}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Natürlich dauerte die Lektüre länger als ich",
+                  "es wahrhaben wollte. Ich neigte dazu, mich im",
+                  "Text zu verlieren. Eingesaugt, als wäre ich",
+                  "selbst die Magd auf dem Scheiterhaufen."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Geräusche im Hintergrund"
+              },
+              {
+                "type": "Action",
+                "text": "{FRY FRY FRY ZISCH}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "sinnierte",
+                "text": [
+                  "Alles Fetisch? Alles Show? Will ich nur",
+                  "unterhalten?"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "\"Let me entertain you\" Melodie von Robbie Williams spielte im Hintergrund."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Nein, es geht hier um mehr als die",
+                  "Metapher! Feuer entzünden. Sie sollen",
+                  "vor Emotionen mit mir brennen."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "{FRY FRY FRY ZISCH}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Oh, shit!"
+                ]
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "title": "INT. KÜCHE",
+            "events": [
+              {
+                "type": "Action",
+                "text": "{BRZZZ BRZZZ BRZZZ ZISCH}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Holy Moly, Guacamole! Meine Eier!",
+                  "{GRRR}"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF nahm die Pfanne und warf die verbrannten Eier in den Mülleimer."
+              },
+              {
+                "type": "Action",
+                "text": "{PATSCH PLUMPS}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Ich ess später ein paar Oblaten.",
+                  "Es gibt Wichtigeres."
+                ]
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "title": "BADEZIMMER",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Vorm Waschbecken angekommen, ergriff PLF die Paste – das blaue Elixier extrudierte heraus."
+              },
+              {
+                "type": "Action",
+                "text": "{QUETSCH, PLOMP}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Verfehlt? WTF! Scheint ja gar nix",
+                  "mehr zu klappen."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Der zweite Versuch gelang …"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "zürnte genervt Richtung Erzähler:in",
+                "text": [
+                  "Danke, aber WIR haben es",
+                  "verstanden. Ruhe, jetzt, ich",
+                  "konzentriere mich."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF begann zu bürsten. Beim Hin und Her der Bürste. {FRAP FRAP FRAP FRAP} starrte PLF in die tiefen Augenringe. PLF schien durch sich selbst hindurch zu sehen, spuckte ins Becken {SPLAT} und starrte erneut mit irrem Blick in den Spiegel."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "erschrak",
+                "text": [
+                  "{ARRRRR} Was war das?"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "rieb sich die Augen und doch…",
+                "text": [
+                  "Es war da",
+                  "Wer",
+                  "Was",
+                  "wessen,",
+                  "ein Wesen!",
+                  "Ein Katzenvieh? Im Bademantel?"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Nichts mehr! Wie es erschien, war es auch",
+                  "wieder weg."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Naja, gut, weg ist sie, war wohl nur",
+                  "Einbildung."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "CHOR",
+                "parenthetical": "",
+                "text": [
+                  "Once it means nothing."
+                ]
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "title": "INT. KLEIDERKAMMER",
+            "events": [
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Sorgsam und mit geübter Hand glitt ich in die",
+                  "feine Garbadine, deren schlichtes Weiß ihre",
+                  "fromme Eleganz ausstrahlte. Garbadine, mit",
+                  "ihrer diagonal gerippten Struktur, lag straff",
+                  "am Körper an. Oft zu Unrecht als gewöhnlich",
+                  "abgetan, unterschied sie sich wesentlich von",
+                  "der Popeline, die leichter und quer gerippt",
+                  "war. Davon konnte ich mich jedoch nicht",
+                  "weiter ablenken lassen. Ich liebte dieses",
+                  "Ritual. Das Binden der Schnüre, das Falten",
+                  "der Ärmel – alles saß. Ich fühlte mich so",
+                  "rein wie der Stoff. Und so fromm und fein wie",
+                  "die Nähte am Korsett. Es war eine",
+                  "millimetergenaue Maßanfertigung, die meine",
+                  "androidenhafte Gestalt glänzen ließ. Mein",
+                  "Einstieg in die Rolle."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Nein, eine Rolle war es nicht mehr. Die",
+                  "Philosoph:innen stritten sich über",
+                  "Identität."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Ja, da war die Spiritualität/Theologie",
+                  "überlegen. Endlich durchströmte mich das am",
+                  "heutigen Tag so lange auf sich warten",
+                  "lassende Selbstbewusstsein. Ich war bereit."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF schritt in den Flur hinaus."
+              },
+              {
+                "type": "Action",
+                "text": "{PING}"
+              },
+              {
+                "type": "Action",
+                "text": "Die Fahrstuhltür öffnete sich. Mit dem Lift fuhr PLF vom Penthouse hinunter. {RATTER RATTER}"
+              },
+              {
+                "type": "Action",
+                "text": "PLF schritt aus dem Haus. Die Aufsicht ins Gesicht, das Gebäude im Hintergrund."
+              },
+              {
+                "type": "Action",
+                "text": "Aus dem Schwarz des Himmels faded die Figur ein."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "dachte",
+                "text": [
+                  "Wie prächtig das Licht der Dämmerung durch",
+                  "die Korridore des alten Schiffes strahlt!",
+                  "Vor genau 54 Jahren, 5 Stunden, 15 Minuten",
+                  "kammen wir gemeinsam auf diesem Planeten an!",
+                  "Im Jahr, als Mao Zedong und Ulrike Meinhof",
+                  "zum Herren aufstiegen, kamen wir gemeinsam",
+                  "hinunter. Die hatten ehrlich gesagt",
+                  "eigentlich pures Glück überhaupt in den",
+                  "Himmel zu kommen. Schwer waren sie zu",
+                  "interpretieren. Mit doppeltem Blick",
+                  "betrachten muss man solche Personen. Eine",
+                  "Jugend ohne Gott. Selber wollten sie wohl",
+                  "zu Göttern werden. Konsequent waren sie."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Das wäre schon eine tolle Geschichte, oder",
+                  "nicht? Science Fiction passte einfach",
+                  "wahnsinnig gut zu meinem Selbstbild."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "KATZE",
+                "parenthetical": "",
+                "text": [
+                  "{FAUCH}"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Da bist du ja wieder?"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Bereits auf der Schwelle zur Treppe tauchte KATZE erneut im Gang auf. Sie schaute PLF aufsässig an. PLF schleuderte ungeschickt die langen Glieder."
+              },
+              {
+                "type": "Action",
+                "text": "{WHIP WHIP}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Hau ab! Zieh Leine! Geh du Untier! Und",
+                  "hässlich bist du auch. OMG!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "{SWOSH}"
+              },
+              {
+                "type": "Action",
+                "text": "KATZE zog sich zurück, als hätte es die Schatten der Realität unrechtmäßig überschritten, und wirbelte dabei eine Wolke aus Staub auf. In diesem Moment der Abwehr überkam PLF ein Gefühl. Sie wurde erinnert an die dystopischen Held:innen aus all den Erzählungen, von Sci-Fi bis hin zu den tiefen der heiligen Texte – Held:innen, die zuerst gegen ihre inneren Dämonen kämpfen mussten, um in einer starren Welt ihre wahre Identität zu finden. Noch wusste PLF nicht, wie sehr dieser Kampf nun auch Teil ihrer eigenen Reise werden würde."
+              },
+              {
+                "type": "Action",
+                "text": "PLF ging weiter und schritt durch die mäandernden Wege der Siedlung wie Moses auf einem Hoverboard durchs Rote Meer."
+              },
+              {
+                "type": "Action",
+                "text": "\"I want to be a cloud, loud, loud, loud!\""
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "leise summend",
+                "text": []
+              },
+              {
+                "type": "Action",
+                "text": "Wie ein Sonnenstrahl antwortete der Chor durch die dichten Wolken mit „loud loud loud“, und es wurde langsam heller."
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "title": "EXT. ZWISCHEN DEN APARTMENTBLOCKS - BLAU STUNDE",
+            "events": [
+              {
+                "type": "Action",
+                "text": "INTERAKTIVE SZENE"
+              },
+              {
+                "type": "Action",
+                "text": "Kathedralen-artige ragten die grauen Beton-Riesen bis hoch in den Himmel. Vom Regen glänzten die Gehwege. Ein monotoner Drone-Chor erklang."
+              },
+              {
+                "type": "Action",
+                "text": "PLF flanierte durch die Gegend. PLF schien nicht in Eile zu sein und nahm hier und da Umwege. Es folgte eine Abfolge von Szenen, wie das Erkunden in einem MMORPG. Jede Szene war ein Schauplatz, in den PLF eintrat. Kurz dachte. Sich umsah. Kommentierte. Oft aber einfach Freude daran hatte zu verweilen."
+              },
+              {
+                "type": "Action",
+                "text": "Neue Szenen wurden entdeckt. Jede Szene hatte eine andere Soundstimmung. Eine eigene Welt beinahe. Oft waren die Übergänge nicht ganz so logisch, aber gerade darin lag die Faszination."
+              },
+              {
+                "type": "Action",
+                "text": "Je nach Uhrzeit gab es immer wieder neue interessante Dinge zu entdecken. Mittelalterliche wechselten sich mit brutalistischen und urbane mit ländlichen ab."
+              },
+              {
+                "type": "Action",
+                "text": "Obwohl PLF vermeintlich willkürlich von Szenen zu Szene wandelte, merkte sich der Algorithmus die Reihenfolge der Szenen in einer History."
+              },
+              {
+                "type": "Action",
+                "text": "Am Anfang und Ende der Szenen tauchten jeweils zwei Buttons auf."
+              },
+              {
+                "type": "Action",
+                "text": "[ WEITER SPAZIEREN ]                         [ ÜBERSPRINGEN ]"
+              },
+              {
+                "type": "Action",
+                "text": "**WEITER SPAZIEREN** brachte PLF zufällig in die nächste Szene, **ÜBERSPRINGEN** jedoch zur Kathedrale."
+              },
+              {
+                "type": "Action",
+                "text": "PLF schien jedoch die Kathedrale bereits vergessen zu haben und so verstrich die Zeit unaufhaltsam. Der Gottesdienst stand bevor und PLF wurde automatisch zur Kathedrale weitergeleitet."
+              }
+            ]
+          },
+          {
+            "number": 13,
+            "title": "EXT. ALTERLAA KIRCHENVORPLATZ",
+            "events": [
+              {
+                "type": "Action",
+                "text": "WEITER SPAZIEREN | ÜBERSPRINGEN"
+              }
+            ]
+          },
+          {
+            "number": 14,
+            "title": "EXT. BRUTALISTISCHES HOCHHAUS MIT WASSERFALL",
+            "events": [
+              {
+                "type": "Action",
+                "text": "WEITER SPAZIEREN | ÜBERSPRINGEN"
+              }
+            ]
+          },
+          {
+            "number": 15,
+            "title": "EXT. KREUZWEGE",
+            "events": [
+              {
+                "type": "Action",
+                "text": "WEITER SPAZIEREN | ÜBERSPRINGEN"
+              }
+            ]
+          },
+          {
+            "number": 16,
+            "title": "EXT. MITTELALTERLICHE GASSE",
+            "events": [
+              {
+                "type": "Action",
+                "text": "WEITER SPAZIEREN | ÜBERSPRINGEN"
+              }
+            ]
+          },
+          {
+            "number": 17,
+            "title": "EXT. BRUTALISTISCHER INFINITY POOL",
+            "events": [
+              {
+                "type": "Action",
+                "text": "WEITER SPAZIEREN | ÜBERSPRINGEN"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "type": "song",
+      "item": {
+        "number": 2,
+        "title": "CLOUD LEVEL 9",
+        "lyrics": "\n    # CLOUD LEVEL 9\n\n    1. Strophe  Each day is a new game\n                And every trail, a quest.\n                I keep a record on my wall\n                Of all the triumph.\n                Boil me up and vaporize\n                My body into tiny drops.\n                Those heavy limbs don't suit my case,\n                Lift me up into heaven’s grace.\n\n    Chorus      I want to be a cloud, loud, loud, loud.\n                Let's wander like a cloud, loud, loud, loud.\n                Ever changing cloud, loud, loud, loud.\n                Forever I'd be proud, loud, loud, loud.\n\n\n    2. Strophe  My body's mine, and consists of others,\n                My body's shapes spark phantasy,\n                In children's and in adults eyes,\n                I shed a light on secret wishes.\n                A feisty mindful galaxy of red balloons,\n                Is tickling my ins and outs.\n                I hear their message and respond,\n                And turn my body into brilliant white.\n\n\n    3. Strophe  Your complex morals do not apply,\n                I'd rain, no good nor evil,\n                a trail of sweets and sour puddles,\n                And leave the reckoning to you.\n                Billions of years! I have seen it all,\n                The meaty archaeopteryx\n                these ghastly pegasus on their way down\n                they didn't cry, I am still surprised.\n\n    1. Bridge   Come we take you to the sky,\n                Along the birds we fly,\n                And airplanes bump us shy,\n                It's only a wish, If we don't try.\n\n    2. Bridge   Ikarus got cut his wings,\n                went down with bursts of steam.\n                This end of every theme,\n                shall never scare me of my dream.\n\n"
+      }
+    },
+    {
+      "id": 5,
+      "type": "chapter",
+      "item": {
+        "number": 2,
+        "title": "ANGER",
+        "subtitle": null,
+        "scenes": [
+          {
+            "number": 18,
+            "title": "EXT. KATHEDRALE - TAG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF betrat mit großen Schritten den Platz vor der Kathedrale. Der Auftritt schien mit der Schönheit des Tempels konkurrieren zu wollen. Ein Gefühlscocktail von Ehrfurcht, Stolz, Macht und Bestätigung durchströmte jedes Glied. Man sah es PLF an: die ganze Statur war aufgereckt, jedes Glied stützte die Bögen, der Körper war kein organisches Gebilde aus Proteinen und Kohlenstoff mehr, sondern ein Geist, der zu schweben schien aus kosmischer Materie. Erst die Bewegung manifestierte das Kunstwerk. Die Einsicht, die Zuversicht, mit der PLF das Gewand an diesen Ort trug, vervollständigte das Ganze. Diese Kleider waren gemacht von Leuten für mächtige Leute."
+              }
+            ]
+          },
+          {
+            "number": 19,
+            "title": "INT. KATHEDRALE",
+            "events": [
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Doch kein Mensch schien mich zu bemerken."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Müde Gesichter, gelangweiltes Gemurmel, ab und zu knipst ein Fotoapparat. Das strahlende Grinsen von PLF verzog sich und der Mund klappte auf."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "dachte sich verwundert",
+                "text": [
+                  "HÄÄ? {KRATZ} {KRATZ}",
+                  "Wieso kommen die nur zum Handy glotzen hier",
+                  "her? Ist das jetzt ein PokeStop? Nutzlose",
+                  "Styropor Kids! Audio guides für Touris.",
+                  "Dümmste Idee.",
+                  "Nunja, das gehört zum Job!"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "So war es:",
+                  "Es war Job!",
+                  "Es war Berufung! Auf dieser für mich",
+                  "entworfenen Bühne konnte mich nichts aus der",
+                  "Fassung bringen."
+                ]
+              }
+            ]
+          },
+          {
+            "number": 20,
+            "title": "INT. KATHEDRALE NAH DEM ALTAR",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF ging auf den Altar zu. Ein paar vereinzelte Gesichter starrten PLF über ihr Handy mittelmäßig interessiert an."
+              },
+              {
+                "type": "Dialogue",
+                "character": "KIND",
+                "parenthetical": "stupste ihre Tante an",
+                "text": [
+                  "Guck mal, Tante. Die Katze ist ganz nackt!"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "FRAU",
+                "parenthetical": "schaute kurz vom Handy auf",
+                "text": [
+                  "{SHRUG}",
+                  "Ja, mag so sein.",
+                  "Komisches Ding."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF stützte sich mit beiden Vorderläufen auf. Die Predigt stand bevor. Senkte das Haupt. Hielt für einen Moment inne,"
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Auf diesen Moment kam es an!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "{ROARRRRRRRRRRR} Ein gewaltiger Schrei schepperte durch das riesige Kirchenschiff. Das Kind erschrickt und schlug beim Versuch sich um die Tante zu klammern dieser das Handy mit ganzer Wucht aus der Hand. {WHUP} {KLING KLONG} {SCHEPPER}. Jetzt erstaunten alle."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PASSANT:INNEN",
+                "parenthetical": "",
+                "text": [
+                  "Wo kam, dass her?",
+                  "Eine Ratte?",
+                  "Ein Schwein?"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "KIND",
+                "parenthetical": "",
+                "text": [
+                  "Ich hab Angst. {ZITTER}"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Es dauerte noch einen Moment, bis auch das letzte Fünkchen Lärm Zeit zum Abrieseln hatte. {RASCHEL} Die Buchstaben des {ROARRRRRRRR} Onomatopoeia segelten wie kleine Fallschirme zu Boden. PLF holte tief Luft, um das explosive Crescendo der Predigt zu entfesseln."
+              },
+              {
+                "type": "Action",
+                "text": "Schneller Richtungswechsel, dynamische Verschmelzung der Bewegungen mit dem Raum, der Worte mit den Gliedern, die mit Feuer und Flamme artikulierten, die Wörter trugen die Botschaft wie Shuriken - Ninja-Sterne, die nicht nur Waffen, sondern auch Nachrichten waren. In alle Richtungen reflektierte die perfekte Akustik die Wörter, sie schlugen auf und durch die Trommelfelle, das Mark, die Kleinhirnrinde, mit der Kraft tausender MDMA-Trips."
+              },
+              {
+                "type": "Action",
+                "text": "1. Strophe  Neuer Tag, neues Spiel"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "predigte",
+                "text": [
+                  "Mein Pfad, meine Mission.",
+                  "An meine Wand schlage ich",
+                  "Trophäen,",
+                  "Aller meiner Siege.",
+                  "Kocht mich auf, verdampfet mich",
+                  "Meinen Körper zu feinsten",
+                  "Tröpfchen.",
+                  "Diese schweren",
+                  "Glieder taugen meiner Absicht",
+                  "nicht!",
+                  "Hebt mich empor in die",
+                  "Herrlichkeit des Himmels"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Chorus      Wir wär'n so gern 'ne"
+              },
+              {
+                "type": "Dialogue",
+                "character": "CHOR",
+                "parenthetical": "",
+                "text": [
+                  "Cloud, laut, laut, laut.",
+                  "Lass uns ziehen wie 'ne",
+                  "Cloud, laut, laut, laut.",
+                  "Einmal nur 'ne Cloud,",
+                  "laut, laut, laut.",
+                  "Für immer wär'n wir stolz,",
+                  "stolz, stolz, stolz."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Diese schnellen Folgen wurden kurzfristig unterbrochen vom Flüstern der Worte \"laut, laut, laut\" am Ende des Choruses. PLF war begabt in der Nutzung der Dynamik und brach sofort nach dem Verhallen des letzten leisen Atems mit voller Kraft in die erste Zeile der nächsten Strophe."
+              },
+              {
+                "type": "Action",
+                "text": "2. Strophe  Mein Körper gehört mir, besteht"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "er doch aus anderen,..."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "{MIAU} KATZE zwischen den Betbänken"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "verschluckte sich",
+                "text": [
+                  "... ? Wirklich? Schon wieder?"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF verlor komplett die Konzentration, der Chor sang unbeirrt weiter, laut, laut, laut. So wichtig war das Dirigat nun wohl doch nicht."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "taumelnd",
+                "text": [
+                  "Das kann nicht die Realität sein,",
+                  "die ich mir heute ausgesucht",
+                  "habe."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "nach oben gestigulierend",
+                "text": [
+                  "Bitte, Vater.",
+                  "Nicht jetzt!",
+                  "Welch Satan schickte dich?",
+                  "Geh!",
+                  "Hau ab!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Ein Katz-und-Maus-Spiel begann, und PLF versuchte verzweifelt, KATZE zu fangen. Die anfängliche Würde war weg, die Balken der Bögen des kosmischen Gerüstes bogen sich, die Statur wirkte knotig, ungelenk, wie ein zerknittertes Tuch, ein zusammengestürztes Kartenhaus, die faltigen Augenlider eines Minenarbeiters, die Falten der Mutter Teresa, ein Mikadospiel, als wäre ein Tornado plötzlich in das Gotteshaus eingefahren und hätte eine Spur der Verwüstung hinterlassen."
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Es gelang mir jedenfalls nicht, den",
+                  "Störenfried zu fangen."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "entschieden",
+                "text": [
+                  "Auf keinen Fall!",
+                  "Das ist zu viel.",
+                  "Schnell weg hier."
+                ]
+              }
+            ]
+          },
+          {
+            "number": 21,
+            "title": "EXT. KATHEDRALE - TAG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF flüchtet durch das Hauptportal in Richtung U-Bahn. Passant:innen im nicht enden wollenden Strom Gläubiger, Tourist:innen und Styropor-Kinder werden zurückgestoßen und erschraken."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PASSANT:INNEN",
+                "parenthetical": "aus allen Richtungen",
+                "text": [
+                  "Hey, aufpassen, ich mach hier ein",
+                  "Live.",
+                  "Ist das der heilige Geist?",
+                  "Ich glaube Gott ist tot.",
+                  "¡Ayuda, el diablo!",
+                  "Drecksviehsch!",
+                  "Weiter davorn!"
+                ]
+              }
+            ]
+          },
+          {
+            "number": 22,
+            "title": "INT. U-BAHN SCHACHT",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Die Gestalt verschwand mit viel Staub!"
+              }
+            ]
+          },
+          {
+            "number": 23,
+            "title": "INT. U-BAHNSTEIG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Langsames, schweres Atmen. PLF war benommen. Im Hintergrund drangen durch die U-Bahn-Kulisse gefilterte Fetzen von Ansagen und Gesprächen vorbeilaufender Passant:innen, und eine nervtötende, an eine klassische Komposition eines alten, schon lange toten weißen Mannes erinnernde Melodie bohrte sich in die Nebenhirnrinden aller, die hier sein mussten."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PASSANT:IN 1",
+                "parenthetical": "Finger zeigend",
+                "text": [
+                  "Na, servus. Ist es wirklich?"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PASSANT:IN 2",
+                "parenthetical": "mit vorgehaltener Hand",
+                "text": [
+                  "Ich glaube schon. Sieht traurig",
+                  "aus. Irgendwie ab der Lack."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PASSANT:IN 1",
+                "parenthetical": "",
+                "text": [
+                  "Die Haare auch, so lässen's sie",
+                  "aber nett rein."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PASSANT:IN 2",
+                "parenthetical": "",
+                "text": [
+                  "Fix."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PASSANT:IN 3 machte ein Lockgeräusch und warf ein Stück Wurst auf den Boden vor PLF."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PASSANT:IN 3",
+                "parenthetical": "",
+                "text": [
+                  "Da!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF war verwirrt und ängstlich und begann, mit einer Rosenkranz-App zu beten, in der Hoffnung, dass das Ritual ihr Frieden bringen könnte. Die Wiederholung sollte Halt geben. Es schien jedoch wenig dazu beizutragen, die Konzentration zu bündeln, und half kaum, Ruhe in den Kopf zu bringen. Hätte PLF doch nur ihren analogen Fidget Cube dabei gehabt."
+              }
+            ]
+          },
+          {
+            "number": 24,
+            "title": "WERBUNG - FIDGET CUBE",
+            "events": [
+              {
+                "type": "Action",
+                "text": "POPUP"
+              },
+              {
+                "type": "Action",
+                "text": "€0.94 UVP €6.40 85% günstiger Preis inkl. MwSt. | Zusätzlicher 1% Rabatt Unbegrenzter Zappel-Würfel für Kinder und Erwachsene – Stressabbau-Spielzeugsatz mit Neuheit und einzigartigen Würfeln Stars: 4.4 549 Bewertungen 5.000+ verkauft"
+              }
+            ]
+          },
+          {
+            "number": 25,
+            "title": "INT. U-BAHNSTEIG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Das Licht und Donnern der einfahrenden U-Bahn zwang die Augenlider von PLF, sich zu öffnen. Die allgegenwärtigen Werbeanzeigen und Screens buhlten um PLFs Aufmerksamkeit."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Was geschieht mit mir? Woher nur all",
+                  "die falschen Götter?"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Die Türen der U-Bahn öffneten sich, und PLF huschte hinein. Die Fahrt begann. Langsam bewegten wir uns aus **Megaworld** heraus, die Plakate wurden größer, die Götter mächtiger. Sanfte Piano-Akkorde des Chorus von **Not My City** erklangen. PLF starrte aus dem Fenster und entdeckte drei KRÄHENWESEN, die dem Gefährt folgten und versuchten, PLF eine Nachricht zu überbringen. PLF wimmelte sie ab und versuchte, in die Ferne zu blicken. Wir hatten die Stadt langsam hinter uns gebracht, und die Berge tauchten auf. Schnee bedeckte die Landschaft."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "type": "song",
+      "item": {
+        "number": 3,
+        "title": "NOT MY CITY",
+        "lyrics": "\n                        # NOT MY CITY\n\n    1. Strophe  Stimmengewirr von Leuten die Absagen\n    2. Strophe  Polizei\n    3. Strophe  Liebeskummer\n\n    Bridge      (solo) I want to race\n                And I want to fly\n                I’m heading towards the sky.\n\n                (tutti) This ain’t my city after all.\n                Too many broken hearts.\n                Too many memories.\n\n                (solo) I’m brushing of the dust,\n                The dust of time.\n                It’s been nothing but a lie.\n\n                (tutti) This ain’t my city after all.\n                Too many friends who cried.\n                Too many dreams to die.\n\n"
+      }
+    },
+    {
+      "id": 7,
+      "type": "chapter",
+      "item": {
+        "number": 3,
+        "title": "BARGAINING",
+        "subtitle": null,
+        "scenes": [
+          {
+            "number": 26,
+            "title": "EXT. WINTERLICHES BERGDORF - TAG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "**Füge noch Details hinzu. Schuhen, zu wenig** **Kleidung. Rote Finger, eisiger Wind der durch die** **Schlitze in der Robe weh. Blaue Lippen.** **Husten, Hände unter die Achsel, das kribbeln des Blutes** **beim zurück strömen. Gefrorene Rotze an der Nase.**"
+              },
+              {
+                "type": "Action",
+                "text": "PLF stieg aus. Es war bitterkalt."
+              },
+              {
+                "type": "Action",
+                "text": "Vor ihr lag ein mit Schnee und Eis bedeckter Weg der in den weißen Bergen verschwand."
+              },
+              {
+                "type": "Action",
+                "text": "PLF war sich sicher: Eine Pilgerfahrt. Ein Sinnan. Ein suchender Akt größter Anstrengung – das würde Antworten bringen. Erfrieren? Nein, der Glaube. Der Wille. Die Aufgabe hielt warm. Damit schaffe ich es, dachte sich PLF. Vor einigen Jahren, in der Ausbildung, war PLF bereits einmal im Kloster auf dem Berg gewesen. Der Weg war beschwerlich, im pechschwarzem Unterholz, im Flimmern der kalten Luft, links und rechts und oben und unten lauerten täuschende Visionen, die versuchten, die Suchenden zu verwirren. Es waren nicht die Götter, es waren Geister, die Seelen der Gewässer, der Bäume, der Steine, der Lüfte. Die katholische Bildung war wie ein Studium der Philosophie, der Mathematik. Praktisches Wissen vermittelte PLF niemand. So war ihr die Natur immer das Monster das sie mied. Menschen schienen ihr schon anstrengend genug."
+              }
+            ]
+          },
+          {
+            "number": 27,
+            "title": "EXT. HINTER DER WEGKREUZUNG - TAG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Nach einer Weile tauchte hinter einer Kurve eine riesige reflektierende Kugel inmitten des Waldes auf. Hoch ragte sie über allem."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Eine Vision? Ein Zeichen? Vielleicht die",
+                  "erste Antwort? Es war so kalt, es konnte eine",
+                  "Luftspiegelung sein. Was soll's!"
+                ]
+              }
+            ]
+          },
+          {
+            "number": 28,
+            "title": "EXT. WALDPFAD - TAG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF packte allen Mut zusammen, die Hände bereits blau, und schleppte sich durch die Schneemassen dem mystischen Meilenstein entgegen. Um warm zu bleiben, feuerte sich PLF an und begann eine Choreografie. PLF schlang die Arme um den Körper und stampfte mit den Füßen auf den gefrorenen Boden. {STAMPF STAMPF} Laute Trommelschläge schallten durch das Tal. Gelegentlich hielt PLF inne und rieb sich die Hände. Sie atmeten tief ein, während sie im Rhythmus durch den Schnee wateten, ihre Bewegungen bestimmt und energisch, die Kälte mit jedem Schritt zurückdrängend. Der Puls stieg, die Kälte wich aus den Gliedern, und leise Affirmationen murmelten sie vor sich hin, um den Kampfgeist zu stärken."
+              },
+              {
+                "type": "Action",
+                "text": "Es war ein Kampf gegen die Urgewalten. Das befreite! Die Gefahr der Lawinen ließ das Adrenalin in die Adern schießen, und nahezu mühelos eilte PLF der Fata Morgana entgegen."
+              }
+            ]
+          },
+          {
+            "number": 29,
+            "title": "EXT. WALDLICHTUNG - TAG",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Im Geäst des Waldes tauchte im Augenwinkel von PLF ein bedrohliches Wesen auf. PLF erhöhte das Tempo, doch es half nichts. Nach einem schnellen Blick war es immer noch dicht auf den Fersen. PLF drehte sich um und erblickte ein riesiges weißes Tier, aus dessen Maul warmer Atem strömte."
+              },
+              {
+                "type": "Action",
+                "text": "TIGER ist weiß mit riesen Zähnen. **Anger Stage Character**"
+              },
+              {
+                "type": "Dialogue",
+                "character": "TIGER",
+                "parenthetical": "",
+                "text": [
+                  "{ROARRRRRRRRRRR}"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Es war ein Weißer TIGER. PLF und TIGER waren bereits gleichauf nebeneinander, beide eilten synchron den Berg hinauf. Auf einer Lichtung schaffte es TIGER, sich PLF in den Weg zu stellen. PLF erkannte die Aussichtslosigkeit der Flucht und blieb stehen. Es war High Noon, und die Duellant:innen starrten sich an. Beide schrien sich an in wilder Folge, als wären sie ein Dub-Soundsystem- Soundoff. Auf den umliegenden Bäumen wurde der Schnee von den Ästen gerüttelt, und vereinzelt stiegen kleine Vögel und Geister in den Himmel. Ein Reh suchte das Weite, eine Gruppe Hasen grub sich ein. Es kehrte wieder Ruhe ein, die Luft war zum Schneiden."
+              },
+              {
+                "type": "Action",
+                "text": "PLF ging in sich, sammelte alle Energien, formte mit den Händen einen Eisenergieball und schleuderte diesen mit einem lauten Kamehameha auf das edle Tier. TIGER hatte sich bereits in Bewegung gesetzt und eilte auf PLFs Position zu. Blitzartig wandte sich PLF und rannte auf einen großen Felsen zu. TIGER wurde vom Blitz getroffen, konnte die Verfolgung jedoch aufnehmen und stürzte PLF hinterher. PLF kam dem Felsen näher, warf sich blitzartig dahinter auf den Boden. TIGER, noch betäubt vom Energieball, verschätzte den Bremsweg, der nötig gewesen wäre. Zusammengekauert beobachtete PLF, wie das wuchtige Tier über den Felsen in den Abgrund fiel. Ein lauter Schrei erfüllte das Tal. PLF war fürs Erste sicher. Ein kurzes Stoßgebet, ein prüfender Blick."
+              },
+              {
+                "type": "Action",
+                "text": "Es war überstanden, doch ein weißer Schneesturm zog auf. Sich beinahe verirrend, verzweifelt am Boden kriechend, bemerkte PLF mit letzter Kraft nach einer Weile ein Stück einer Mauer und einen Strauch mit kleinen roten Beeren. Es musste das Kloster sein. PLF spurtete los und suchte den Eingang, rutschte noch einmal tolpatschig auf den Treppen aus und fand schließlich die Pforte. PLF trat ein."
+              }
+            ]
+          },
+          {
+            "number": 30,
+            "title": "INT. KLOSTERBIBLIOTHEK",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Mit riesigen weit aufgerissen Augen. Entzückt. Voll Freude wie ein Kind betratt PLF diese ihr vertrauten Räume."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "zitierte Thomas Aquinas",
+                "text": [
+                  "Beware the man with the one book!",
+                  "{PAH} ..."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "YPLF ist die junge Version von PLF."
+              },
+              {
+                "type": "Action",
+                "text": "Augenblicklich fühlt PLF zurück versetzt als sie noch YPLF war."
+              },
+              {
+                "type": "Dialogue",
+                "character": "YPLF",
+                "parenthetical": "",
+                "text": [
+                  "... Fear the man who owns all",
+                  "the books!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Der Geruch von verstaubten Papier, modrigen Leder, das Schimmernde Licht von Kerzen. Die Lesepulte an den Säulen die in den Himmel ragten. PLF streicht über ein staubiges Pult. Genau erinnert sich PLF wie sie das erste mal die Bücher die ihr Weltbild prägen sollten zwischen all dem Kirchenlatein fand."
+              }
+            ]
+          },
+          {
+            "number": 31,
+            "title": "INT. BÜCHER REGAL",
+            "events": [
+              {
+                "type": "Action",
+                "text": "|------------| ||X|         | ||X|         | ||X|         | |------------| |------------| ||X||X||X||X|| ||X||X||X||X|| ||X||X||X||X|| |------------| |------------| ||X||X||X||X|| ||X||X||X||X|| ||X||X||X||X|| |------------|"
+              },
+              {
+                "type": "Action",
+                "text": "Der feuchte Traum der Patriarchen: Der Kampf um die Kontrolle über das Wasser\" – Eine düstere Vision von Ausbeutung, Macht und der Privatisierung lebenswichtiger Ressourcen."
+              },
+              {
+                "type": "Action",
+                "text": "Outsmart everyone: Die Wissenschaft der Manipulation – Unser Denken steuern."
+              },
+              {
+                "type": "Action",
+                "text": "Effizienz über Alles: Der Krieg gegen die Natur – Warum uns die Gier nach Perfektion in den Abgrund treibt."
+              },
+              {
+                "type": "Action",
+                "text": "Grüne Lüge: Die dunkle Wahrheit hinter nachhaltiger Energie – Wie Gier im Namen des Umweltschutzes getarnt wird."
+              },
+              {
+                "type": "Action",
+                "text": "Permabodentrollfarming in Sibirien"
+              },
+              {
+                "type": "Action",
+                "text": "KI: Die neue Gottheit oder das Ende der Menschheit? – Die Revolution der Maschinen und unsere Ohnmacht, sie zu kontrollieren."
+              },
+              {
+                "type": "Action",
+                "text": "Reinliche Macht: Der schmutzige Tanz der Stiftungen – Wie Reichtum Sünden reinwäscht und Unantastbarkeit schafft."
+              },
+              {
+                "type": "Action",
+                "text": "Manipulierte Zahlen: Die Kunst der Statistischen Täuschung – Daten als Waffe um wirtschaftliche und soziale Realitäten zu schaffen."
+              },
+              {
+                "type": "Action",
+                "text": "Der große Deal: High-Stakes und elitäres Spiel – Eine Reise durch das Netzwerk von Zockern, Supermodels, Nerds, Bankern und Ingenieuren, die die Welt umgarnen."
+              },
+              {
+                "type": "Action",
+                "text": "PLF spürte es – eine pulsierende Energie schein die polierten Böden flickern. Die alten Bücherregalen vibrierten in kosmischen Frequenzen. 432 Hertz. Es war ein vertrautes Gefühl, eines, das so lange gefehlt hatte. Dies war keine gewöhnliche Bibliothek. Dies war die Bibliothek in der {YPLF} nach den Werkzeugen suchte, die Sprache der Welt zu verstehen, sich der Menschen mit ihr zu bedienen. Mehr noch als verstehen, sie zu lenken und zu schaffen. {YPLF} brannte sie zu steuern."
+              },
+              {
+                "type": "Action",
+                "text": "Sie fühlte sich schon damals ausgewählt und war sich nirgends wo so sicher zu einer Elite gehören zu werden, wie die Mönchen in den alten Klostern, die Latein beherrschten. Das besondere an diesen Bibliotheken war eben dass hier all das Wissen auch der Feinde der Kirche, verborgen wurden. Es war das Werkzeug, für die die die Matrix verstanden und sie neu zusammen setzen konnten. Durch Fleiß, das Mantra wiederholend, ja auswendig lernen und kopieren und beim kopieren zu verfeinern, zu aktualisieren. {YPLF} wusste, die Wahrheit entsteht in diesem Prozess."
+              },
+              {
+                "type": "Action",
+                "text": "PLF fängt sich und snapt aus der Erinnerung zurück. Gut, Katze! Was ist dein Geheimnis. Die Bibel im alten und neuen gaben keine Antworten. Es gab wohl keine Mäuse, die Sinnflut muss sie dahin gerafft haben. Die Viecher waren arbeitslos. PLF grub durch die klassischen Text Griechenlands. Hier Artemis, naja, eher ein Luchs. Hekates Begleiter? Schwarze Katzen. Zaubererei? Hexerei?"
+              },
+              {
+                "type": "Action",
+                "text": "{SHRUG}"
+              },
+              {
+                "type": "Action",
+                "text": "PLF schlug ein weiteres Buch auf und sah das Bild eines Bastet Sistrums. Party Katze? Die Ägypter wussten wie gefeiert wird, dachte sich PLF aber das dürre Viech soll eine Fruchtbarkeitsgottheit sein? Furchbarkeitsgottheit eher. Und das Geräusch mag ich mir gar nicht vorstellen. PLF frustrierte von Buch zu Buch. Alles nur semantik. Bilder, Vergleiche, Aufgeladener Schrott, nichts was sie auch schon längst benutzt hätte für die Rhetorik der Kunde des heiligen Willens des einen."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "die Geduld verlierend",
+                "text": [
+                  "Nichts! So komm ich nicht weiter.",
+                  "So schön es auch ist in Nostalgie",
+                  "zu schwelgen, jetzt muss ich",
+                  "ernst machen."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "ermunternd",
+                "text": [
+                  "Reiss dich zusammen!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF, schlug das Buch zu."
+              },
+              {
+                "type": "Action",
+                "text": "Verzweifelung machte sich erneut spürbar. Ich werde in diesem Labyrinth nichts mehr finden. Das hier klingt alles überhaupt nicht Zeitgemäß, dachte PLF und konnte das Gefühl nicht los werden, daß die von ihr so geliebt Religion nicht mehr die Macht besaß, die sie früher auf ihn auszustrahlen vermochte."
+              },
+              {
+                "type": "Action",
+                "text": "Die Sprache war alt. Sie war alt. Sie fühlte sich alt. Was PLF jedoch noch nicht bewusst war an diesem Snapshot, einem Standpunkt in der non-linearität der Zeit, daß oft genau dieser Standpunkt nur alt sein kann, weil eine Person eben da gerade drauf stand und das ist ja logisch gesehen, alt also vergangen ab dem Moment wo die Bewegung einfriert. Ein Änderung des Standpunkts würde ganz neue Türen öffnen. Doch wie lang müßen wir hier PLF noch zusehen bis sie begreift, das es Zeit ist. {WOOSH}"
+              },
+              {
+                "type": "Dialogue",
+                "character": "CHOR",
+                "parenthetical": "hauchte sanft",
+                "text": [
+                  "Ich musste es tun.",
+                  "Ich wollte ihn töten.",
+                  "Ich fing an zu wein'n.",
+                  "Ich sah' zu ihn."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Im Schatten des Gewölbes flimmerte das Licht flüchtig über ihre glänzenden Augen, die alles sahen, die alles erkannten. Kein Raum war verborgen vor ihr, auch dieser nicht."
+              },
+              {
+                "type": "Action",
+                "text": "Da, am Ende des langen, kalten Ganges, ein Regal. Verstaubt. Schief. Die Bücher darin zu bedeutungslos, um hier wirklich zu sein. Eine Täuschung. Ein Trick. PLF wusste, dass sich dahinter mehr verbarg – etwas, das jenseits des Staubs und der Stille atmete. Eine andere Welt, verborgen hinter Papier."
+              },
+              {
+                "type": "Action",
+                "text": "Mit einem Blick, wissend und kalt, näherte sie sich. Keine Magie. Keine Geheimnisse. Nur Code. Nur ein Spiel, das darauf wartete, entschlüsselt zu werden."
+              }
+            ]
+          },
+          {
+            "number": 32,
+            "title": "INT. WANDSENSOR",
+            "events": [
+              {
+                "type": "Action",
+                "text": "INTERACTIVE SZENE Rätsel"
+              },
+              {
+                "type": "Action",
+                "text": "Eine leise Berührung an einem unscheinbaren Sensor in der Wand. Ihre digitale Pranke legte sich darauf, und sie sprach die Worte – Worte, die den Code knacken sollten:"
+              },
+              {
+                "type": "Action",
+                "text": "\"Daten sind. Geschäft ist. Geld ist. Gott.\""
+              },
+              {
+                "type": "Action",
+                "text": "Das Zischen der Regale klang wie ein ferner Hauch. Sie fuhren zur Seite, und die wahre Kammer lag vor PLF. Eine Serverfarm, verborgen unter der Klosterbibliothek. Bildschirme flackerten sanft, blassblaues Licht über die stillen Maschinen, als würde sie selbst atmen, wach und allwissend."
+              },
+              {
+                "type": "Action",
+                "text": "Dies war kein Zufall. Kein Rätsel des Schicksals. Sondern ein digitales Artefakt, platziert, um gefunden zu werden."
+              }
+            ]
+          },
+          {
+            "number": 33,
+            "title": "INT. KLOSTER-SERVERFARM-TERMINALS",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Dies war es – das Herz der Klosterbibliothek. Ein hochmodernes Kontrollzentrum, getarnt als Ort des Wissens."
+              },
+              {
+                "type": "Action",
+                "text": "Für einen Moment verharrte PLF. In den Augen reflektierte das Leuchten der Terminals. Automatisiert schalteten laut Relais beisendes Neonlicht in treibender Frequenz an."
+              },
+              {
+                "type": "Action",
+                "text": "Die Suche nach Antworten hatte hierher geführt, doch es ging schon längst nicht mehr um das bloße Entdecken einfacher Wahrheiten. Die nostalgische Hoffnung, die Vergangenheit zu ergründen, war verflogen. Jetzt ging es darum, die Kontrolle über die Gegenwart – und die Zukunft – zu erlangen. Die Worte der Macht hallten in ihrem Kopf wider: \"DATEN SIND MACHT\""
+              },
+              {
+                "type": "Action",
+                "text": "Als PLF sich näher an das Terminal lehnte, erfüllte eine seltsame Ladung die Luft, die mit unausgesprochener Energie schwirrte. Seine Finger tanzten über die Tastatur, angetrieben von Instinkt und Dringlichkeit. Der Bildschirm leuchtete auf und offenbarte Ablagen mit verschlüsselten Dateien, die auf etwas hinwiesen, das weit über einfache Daten hinausging. Eine Datei erregte seine Aufmerksamkeit: „CATS.MANIFEST“."
+              },
+              {
+                "type": "Action",
+                "text": "Sein Herz raste: C.A.T.S. Cognitive Augmentation and Transcendence System. In dem Dokument wurde die Notwendigkeit beschrieben, eine neue Super Religion zu schaffen."
+              },
+              {
+                "type": "Action",
+                "text": "Das Manifest zielte darauf ab, Glauben, Wissenschaft und himmlische Wesen zu einer neuen Religion zu verschmelzen - einer Religion, die es endlich schaffen würde die Grenzen der Erde zu überschreiten, bereit um den Kosmos zu erobern. Phase 1: Verschmelzung des Bewusstseins von Spieler:innen und ihren Avataren."
+              },
+              {
+                "type": "Action",
+                "text": "Weiter führte der Text an: Die Menschen haben einen traurigen Entwicklungsstand erreicht, an dem wir es für Möglich erachten und bitten das Kommitee mit größter Notwendigkeit, die von den Menschen entwickleten Technologien mit den unsrigen zu verbinden und empfehlen die Schaffung einer neuen Religion. Die Studie hat ergeben, daß die Vorraussetzungen von einigen Konzernen bereits gesetzt wurden und mit wenigen gut platzierten Spielen und Content, eine Massenhysterie zum gewünschten Effekt binnen weniger Jahre führen sollte. Als Gründe hat die Kommission, genannt, dass für die Verbindung von Avataren mit neuen Bewusstsein, die Vorraussetzung einer Trans notwendig wäre, die angesichts des erstaunlichen Anwachsen von Dauerkonsumierung und Endloser Überbeanspruchung neuraler Prozess durch diverse Formen digitaler und nicht digitaler Rituale bestehen..."
+              },
+              {
+                "type": "Action",
+                "text": "Gerade als die Tragweite dieses Experiments deutlich wurde, begann das Terminal wild zu flackern. Codezeilen scrollten dramatisch über den Bildschirm. Eine Warnung erscheint"
+              },
+              {
+                "type": "Action",
+                "text": "„Vorsicht: Abstoßung des Bewusstseins“."
+              },
+              {
+                "type": "Action",
+                "text": "Ein kalter Schauer überkam PLF. {KLACK} Schlagartig war der Raum dunkel. Notlichter sprangen an. Der Schweiss auf PLFs Stirn reflektiert sauer-grün."
+              },
+              {
+                "type": "Action",
+                "text": "Unsichtbare Zeichen standen in der Luft. Fragmente eines Rituals. Ein weiterer Kampf stand bevor."
+              },
+              {
+                "type": "Action",
+                "text": "{KLICKER}"
+              },
+              {
+                "type": "Action",
+                "text": "{KLICKER KLICKER} Das Geklicker und Geklackert kam näher und wurde immer lauter und kräftiger. Der Vokal formt sich vom i uebers a zum o. Jetzt endlich erkannte PLF es."
+              },
+              {
+                "type": "Action",
+                "text": "{KLACKER KLACKER}"
+              },
+              {
+                "type": "Action",
+                "text": "Die KRÄHENWESEN, die sie während der Reise schon mehrfach aufsuchten, waren zurück."
+              },
+              {
+                "type": "Action",
+                "text": "PLF spürte, wie das Adrenalin durch seine Adern pumpte, während sein Herz wie ein riesiger Schlägel gegen seinen Brustkorb trommelt. Ihre dürren Leiber, ihre langen Schnäbel werfen lange Schatten in die Korridore die an Samurai Schwerter erinnern. Ihre pechschwarzen Augen reflektieren kleine scharfe grüne Punkte. {FLATTER FLATTER} {SWOSH} Mit einem gewaltigen Satz werden die Punkte zu Linien, einer Laserprojektion gleichend, und bewegend in Bruchteil einer Sekunde auf PLF zu."
+              },
+              {
+                "type": "Action",
+                "text": "Schnell zog sie ihren Arm zurück, um einem Angriff zu entkommen. Der dabei entstandene Luftsog fröstelt ihre erhitzte Haut."
+              },
+              {
+                "type": "Action",
+                "text": "Die KRÄHENWESEN lachten spöttisch, ihre Stimmen krächzten rau und hallten durch die Hallen."
+              },
+              {
+                "type": "Action",
+                "text": "Ein fauliger Geruch von PLFs Angstschweiß mischte sich in die klinische Mischung aus warmer Elektronik, Plastik und kalter, klimatisierter Luft – ein einzigartiger Duft, der könnten Filme riechen bei DEFCON4 ins Kino eingeströmt werden müßte."
+              }
+            ]
+          },
+          {
+            "number": 34,
+            "title": "INT. STREAMER STUDIO",
+            "events": [
+              {
+                "type": "Action",
+                "text": "Video Sequence: Cat Pope steht vor der Kamera im Podcast Setup"
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "Okay, Leute, stellt euch mal die",
+                  "Welt so vor – aber als *Geruch*.",
+                  "Ja, richtig gehört, heute reden",
+                  "wir über die *Vibes*, aber nicht",
+                  "visuell, sondern *olfaktorisch*!",
+                  "Also, lasst uns reinjumpen:"
+                ]
+              }
+            ]
+          },
+          {
+            "number": 35,
+            "title": "INT. SERVERRAUM - KURZE ZEIT SPÄTER",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF wich in die Ecke aus. Ein weiter Angriff steht bevor."
+              },
+              {
+                "type": "Action",
+                "text": "Ihre Hände zitterten, als sie sich an das Kamehameha erinnerte, die einzige Möglichkeit zur Rettung, die ihr wohl blieb. Aufgeben? Niemals! dachte sie verzweifelt, als sie sich mit aller Kraft zusammenriss und ihre Energie kanalisierte. Der Kälte des Raumes wich ein warmer Schimmer, als sie ihre Hände hob und mit einem lauten Schrei den Angriff entfesselte. Die Energie des Kamehameha raste durch die Luft und erfüllte den Raum mit einer flirrenden Spannung. Transistoren und LEDs fingen plötzlich an, in intensiven Farben zu glühen, als ob sie die übernatürliche Kraft nicht nur leiteten, sondern sie in einem letzten, elektrisierenden Tanz feierten. Ihre Lichter pulsierten, blitzten auf, und die Gerätschaften schienen für einen Moment zu leben. Dann, in einem unermesslich grellen Licht, erreichte die Energie ihren Höhepunkt. Für einen Augenblick schien die Zeit stillzustehen, bevor alles in sich zusammenbrach – das Licht erlosch, die Maschinen verstummten, und die Farm versank in tiefer, unheimlicher Stille."
+              },
+              {
+                "type": "Action",
+                "text": "Die KRÄHENWESEN schrien laut auf, flatterten panisch umher und verschwanden im Dunkel. Dieser Kampf war gewonnen, dachte PLF, während sie sich mühsam durch den finsteren Serverraum schleppte. Die flackernden, stillgelegten Bildschirme und Kabelsalate um sie herum wirkten wie ein kaltes, technisches Grab. Der metallische Geruch von Überhitzung lag schwer in der Luft. Doch sie wusste, dass es noch nicht vorbei war."
+              },
+              {
+                "type": "Action",
+                "text": "Mit letzter Kraft entdeckte sie eine Tür am Ende des Raumes, die wie der Eingang zu einer Gruft wirkte. Keuchend stemmte sie sich dagegen, bis diese knirschend nachgab und PLF ins Freie stolperte. Vor ihr breitete sich der Friedhof aus, der Geruch von feuchter Erde und verwesenden Blättern pochte in der Luft."
+              },
+              {
+                "type": "Dialogue",
+                "character": "ERZÄHLER:IN",
+                "parenthetical": "",
+                "text": [
+                  "Ein stiller bitterer Sieg – doch ich wusste,",
+                  "Triumph kam nicht ohne einen Preis.",
+                  "Doch was war der Preis? Was steckte hinter",
+                  "den geheimen Repositories?",
+                  "Ein neues Testament?",
+                  "Was war Projekt Elysium?"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "song",
+      "item": {
+        "number": 4,
+        "title": "NO HE SAID",
+        "lyrics": "\n    # NO HE SAID\n\n    1. Strophe  No.\n                he said.\n                \"No,\" he said.\n                \"no,\" I said.\n                \"I know,\" she said.\n                \"Thank you,\" she said.\n                \"Come with me,\" she said.\n                \"Talk to me,\" she said.\n                \"Don't worry about it,\" she said.\n\n                It made me want to cry.\n                no one had seen him since.\n                it made me feel uneasy.\n                no one had seen him.\n\n                the thought made me smile.\n                the pain was unbearable.\n                the crowd was silent.\n\n                the old man called out.\n                the old man said.\n                the man asked.\n                He was silent for a long moment.\n                he was silent for a moment.\n                it was quiet for a moment.\n                it was dark and cold.\n                And then there was a pause.\n\n    2. Strophe  It was my turn.\n                There was no one else in the world.\n                There was no one else in sight.\n                They were the only ones who mattered.\n                They were the only ones left.\n                He had to be with me.\n                She had to be with him.\n\n\n    Chorus      I had to do this.\n                I wanted to kill him.\n                I started to cry.\n                I turned to them.\n\n                They had to do this\n                They wanted to kill him\n                They started to cry\n                They turned to them\n\n"
+      }
+    },
+    {
+      "id": 9,
+      "type": "chapter",
+      "item": {
+        "number": 4,
+        "title": "DEPRESSION",
+        "subtitle": null,
+        "scenes": [
+          {
+            "number": 36,
+            "title": "INT./EXT. GRUFT",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF trat aus der Gruft hinaus, die Dunkelheit noch in seinen Gedanken nachhallend, und stand nun inmitten der gespenstischen Stille des Friedhofs. Der Kampf mit den KRÄHENWESEN hatte ihn schwer gezeichnet, nicht nur äußerlich. Ihr boshaftes Lachen, als sie sich zurückzogen, hallte noch immer in seinen Ohren. Sie wussten etwas, das ihm verborgen blieb. Der Sieg fühlte sich hohl an, als hätte sie nur einen kleinen Teil eines viel größeren, ungreifbaren Ganzen errungen."
+              },
+              {
+                "type": "Action",
+                "text": "Der Himmel war klar, doch die Realität um sie herum flackerte wie ein gestörter Bildschirm. Es waren kleine, fast unmerkliche Verzerrungen, die ihr das Gefühl gaben, in einer Welt gefangen zu sein, die nicht ganz real war. Ein Glitch, ein Fehler im Gewebe der Wirklichkeit, der ihm immer wieder das Gefühl gab, nicht mehr zu wissen, was wahr war und was nicht."
+              },
+              {
+                "type": "Action",
+                "text": "Das Sonnenlicht, das ihre Haut wärmte, beruhigte die Nerven für einen kurzen Moment. Doch die Störungen blieben, kleine Sprünge in seiner Wahrnehmung, als ob Teile der Umgebung plötzlich verschwanden und an anderer Stelle wieder auftauchten. Der Friedhof selbst wirkte wie eine digitale Illusion, ein Ort, der in der nächsten Sekunde zusammenbrechen könnte."
+              }
+            ]
+          },
+          {
+            "number": 37,
+            "title": "EXT. FRIEDHOF",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF begann ihre Erkundung, aber die Glitches erschwerten die Suche. Die Realität schien sich willkürlich zu verschieben. Ein Grabstein, gerade noch da. Verschwunden. Die Umrisse von Bäumen flackerten, als ob sie in verschiedene Dimensionen versetzt würden. Zwischen den flimmernden Szenen tauchte immer wieder die Spynx-Katze auf, ein seltsames Wesen, das wie eine lebende Anomalie wirkte. Sie schien mit den Glitches zu verschmelzen, blitzte an verschiedenen Stellen des Friedhofs auf, verschwand und erschien erneut, als würde sie durch die Fehler im System hindurchgleiten."
+              },
+              {
+                "type": "Action",
+                "text": "Verwirrt und zunehmend verunsichert versuchte PLF, der Katze zu folgen. Tief in den Friedhof führte die Jagd. Jeder Versuch, näher an sie heranzukommen, wurde durch weitere Glitches unterbrochen. Der Boden schien zu ruckeln. Bereits sie an einen anderen Ort zu transportieren, nur um Sekundenbruchteile später zurück zuspringen. Nichts hier folgte den Regeln der normalen Welt."
+              },
+              {
+                "type": "Action",
+                "text": "Dann, inmitten dieser Störsignale, machte PLF eine Entdeckung. Furcht überkam sie. Beim Lesen der Grabstein Insignien spürte sie, wie die Störungen sich verdichteten. Die Lettern verschwammen vor den Augen. Da standen keine Namen – nur Funktionen! Rollen in einer grotesken Hierarchie."
+              },
+              {
+                "type": "Action",
+                "text": "„Wächter:in“, „Krieger:in“, „Berater:in“, \"Influencer\", \"AI Ethiker:in\"."
+              },
+              {
+                "type": "Action",
+                "text": "Kein einziger Name, keine Identität. Nur Positionen, wie in einem undurchdringlichen System."
+              },
+              {
+                "type": "Action",
+                "text": "Angsterfühlt lief sie hastig weiter. Die Hoffnung, Gräber zu finden, die mehr verraten würden. Die Glitches wurden intensiver. Die Realität selbst reagierte in diesem Moment reagierte."
+              },
+              {
+                "type": "Action",
+                "text": "Schließlich waren da die Gräber der Kirchenpatriarchen. Doch die Glitches wurden immer stärker und ruckelten an der Darstellung der Realität. Wieder keine Namen – nur ein einziges Wort. Immer und immer wieder. PLFs Befürchtung wurde bestätigt „Pope“ – immer und immer wieder. Keine Unterscheidung, keine Geschichte. Nur Titel. Als ob diese Menschen niemals existiert hätten. Als Individuen ausgelöscht. Selbst ihre Titel schienen sich inmitten der Glitches zu verändern. „CEO“, \"Guru\", „Moderator:in“, „Thought Leader:in“, „Startup- Gründer:in“. Titel, die nicht nur alt, sondern auch modern und aus der digitalen Welt stammten, als hätte die Hierarchie des Systems sich über die Jahrhunderte hinweg einfach nur angepasst. Der Friedhof war keine Ruhestätte – er war ein lebendiges Archiv, eine gespenstige Vision der Welt, in der Individualität längst durch Funktionen und Rollen ersetzt worden waren."
+              }
+            ]
+          },
+          {
+            "number": 38,
+            "title": "EXT. AM BRUNNEN",
+            "events": [
+              {
+                "type": "Action",
+                "text": "PLF’s Atem ging schneller. Sie eilte zu einem Brunnen um Wasser zu trinken. Doch alles begann immer heftiger zu ruckeln. Die Glitches wurden zu regelrechten Rissen in seiner Wahrnehmung durch die ein zweite durchschimmerte. Ein Wassertropfen erhob sich aus dem Becken. Er erinnerte an die Kugel die PLF in den Berge gesehen hatte. Während die Wasserkugel intakt blieb, schien sich die Struktur des Friedhofs jedoch zu verschieben. Die gesamte Szene wurde instabil. Der Boden flackerte. Ein unheimliches, verzerrtes Rascheln, das klang wie ein beschädigter Ton in einem gestörten Video."
+              },
+              {
+                "type": "Action",
+                "text": "PLF wusste, dass etwas Schreckliches angestossen wurde. Sie war der Auslößer. Doch bevor PLF einen klaren Gedanken fassen konnte, verzog sich die Welt erneut, und alles begann sich zu bewegen. Die Zeit selbst war nun gegen sie gestellte."
+              },
+              {
+                "type": "Action",
+                "text": "Die Welt löschte sich aus. Unwirklichkeiten. Bäume und Grabsteine verschwanden, tauchten wieder auf. Verzerrt. Wild rotierend. Das Gewebe der Realität selbst zerriss."
+              },
+              {
+                "type": "Action",
+                "text": "{MIAAAAAAAAUUUUU}"
+              },
+              {
+                "type": "Action",
+                "text": "Plötzlich erklang ein langgezogenes Miauen – ein vertrauter Klang inmitten des Wahnsinns. PLF erstarrte, sein Kopf ruckte in die Richtung des Geräuschs. Dort, am Rande des Sichtfeldes, stand die Sphynx-Katze, ihre goldenen Augen blitzten im flackernden Licht. Ein Aura umgab sie. Ihre schlanke Silhouette schien sich nicht von den umgebenden Verzerrungen beeinflussen zu lassen. Sie wirkte fest und real, während alles andere flüchtig und brüchig war. Meditierte sie? Schwebte Sie?"
+              },
+              {
+                "type": "Action",
+                "text": "{MIAAAUUU}"
+              },
+              {
+                "type": "Action",
+                "text": "Ein weiteres, tieferes Miauen kam von der Katze, dieses Mal klang es dringlich. Einladend. Die Erscheinung kam aus Richtung eines verwitterten Tors am Rand des Friedhofs – ein Tor, das PLF zuvor kaum beachtet hatte, wieso auch, dachte sie doch noch antworten zu finde. Es schien einen Garten zu führen."
+              },
+              {
+                "type": "Action",
+                "text": "PLF spürte, dies war der einzige Ausweg. Überall sonst hatten die Glitches bereits fast alles verschlungen. Das Miauen der Katze schnitt durch die verzerrten Geräusche, und der Garten jenseits des Tors wirkte seltsam unberührt. Dort schien die Realität intakt zu bleiben."
+              },
+              {
+                "type": "Action",
+                "text": "Ein letzter Blick auf den zerfallenden Friedhof."
+              },
+              {
+                "type": "Action",
+                "text": "{SCHNURR}"
+              },
+              {
+                "type": "Action",
+                "text": "Das Schnurren bildete eine Brücke die in einem Gartentor endete. Mit letzter Kraft. Buchstabe für Buchstabe gelingt es PLF sich hinein zu zerren."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "type": "song",
+      "item": {
+        "number": 5,
+        "title": "ONCE TWICE THRICE",
+        "lyrics": "\n    # ONCE TWICE THRICE\n\n    Once, it means nothing\n    Twice, it is simple,\n    Once, it means nothing, twice it is simple,\n    Thrice is universal law.\n"
+      }
+    },
+    {
+      "id": 11,
+      "type": "chapter",
+      "item": {
+        "number": 5,
+        "title": "ACCEPTANCE",
+        "subtitle": null,
+        "scenes": [
+          {
+            "number": 39,
+            "title": "EXT. GARDEN EDEN IM SONNEN UNTERGANG",
+            "events": [
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "grübelte",
+                "text": [
+                  "Wie konnte es sein, dass alles",
+                  "gerade noch so desolat,",
+                  "so fatalistisch,",
+                  "so überweltigend (sic) war,",
+                  "Ich schien zu fallen.",
+                  "Und nun steck ich fest.",
+                  "Ich auf sanftem Festen Boden?",
+                  "Wie mit sanften Pfoten.",
+                  "Oben ist wieder unten?",
+                  "Nunja, die Hände im Dreck haben",
+                  "mich für einen Moment zum, wie",
+                  "nannten sie es in Russland",
+                  "nochmal? Quadrobiing, also zu",
+                  "einem Quadrant gemacht."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "unterbewusst",
+                "text": [
+                  "Neuverordnen!",
+                  "Zeit für ein Bodyscan!",
+                  "5-4-3-3-2! Action!"
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "überrascht",
+                "text": [
+                  "{Uff}"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Dies war eines von der Therapeutin empfohlen Bewältigungsmechanismen im Falle einer Sinnflut. Nicht austrocknen, sondern sich selbst im Chaos fühlen lernen."
+              },
+              {
+                "type": "Action",
+                "text": "{Pah} Heut morgen schien alles noch so In Ord Nung, dachte sich PLF. Dann die ganze Tortur, wilde Wesen, Angriffe, Bücher, die ich noch nie gesehen habe? Erklär mir bitte mal wer wieso hier kein Schnee mehr liegt?, raste es durch das Gehirn von PLF."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "von allen Seiten vom Chor verstärkt",
+                "text": [
+                  "Augen auf!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "PLF begann mit der Übung."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "",
+                "text": [
+                  "5 Dinge die ich sehe!"
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Während PLF durch die von der Abendsonne durchzogene Beetreihen streifte fing sie an mechanisch aufzuzählen. Tomatenstauden, Thymian, Baby Chili Paprika, krokodilsartigen OBI Gießkannen und aufgebockte Wasserspeicher aus - nunja, beinahe Yves Klein-blauem - Plastik."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "triumphierend",
+                "text": [
+                  "Check. 4 Dinge hören."
+                ]
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "umherstreifend, die Ohren gespitzt",
+                "text": [
+                  "Ruhe. Endlich würde es Ruhe.",
+                  "Okay, dass kann gezählt werden."
+                ]
+              },
+              {
+                "type": "Action",
+                "text": "Zweitens, ein Windspiel aus leichten holen Holzstäben {BLOCK BLOCK BLOCK} in einiger Entfernung. Drittens, ... PLF konzentrierte sich, schloß die Augen. Atmetete tief ein. {BRIZZZZZZZZZZ} Das satte Brummen einer Hochspannungsleitung! {BSSSSS} Da sauste eine Fliege an PLFs Ohr schnell vor rüber. Das Summen würde langsam tiefer. Was ein Dopplereffekt und tolles Stereo, dachte sich PLF. Viertens. Check!"
+              },
+              {
+                "type": "Action",
+                "text": "Verwundert schaute eine Meise mit Wurm von ihrem Ast dem Treiben lautlos zu.{???}"
+              },
+              {
+                "type": "Action",
+                "text": "3 Dinge spüren. PLF streckte beide Arme weit aus, die Augen noch geschloßen. Obwohl die Sonne bereits mit einem Bein im Grab stand für heute bemerkte PLF ihre radioaktiven Strahlen genau. Es brannte ein wenig, doch nicht unbedingt unangenehm. Erstens, check. Durch ihre Finger glitten hochgewachsene Gräser und kitzelten sie behutsam an Unterarm und Ellenbogen. Check. PLF zog die Arme zurück zum Körper und fühlte den Stoff der edlen Garbadine. Mit den Fingerkuppen konnte sie jeden Faden und deren Richtung genaustens ertasten. Welch Ordnung! Welch Perfektion! dachte sich PLF CHECK, das waren die drei."
+              },
+              {
+                "type": "Action",
+                "text": "{SCHNUFF SCHNUFF}"
+              },
+              {
+                "type": "Action",
+                "text": "Riechen genau. Grün. Grasig, Erfrischen. Okay. Ein Gemüse, dass nach einer Farbe riecht? Ha, Brechbohne triumphierte PLF. Zweitens, hier riecht es nach Humus. Check. Saftige kompostierte Erde. Nun fehlte PLF nur noch der letzte Sinn. Das Schmecken. Es war bitter. Glutamat artig, ein wenig wie altes Fleisch jedoch. {BÄH}"
+              },
+              {
+                "type": "Action",
+                "text": "PLF spuckt und reißt die Augen auf. Vor ihr eine Pfütze. In der Reflektion erkannte PLF die Katzer wieder. Du bist es? Aber wie kann das sein? ... PLF starrte Regungslos in die Pfütze und langsam beginnt der geerdete Geist zu verstehen. Jetzt, machte alle Sinn. PLF fehlte die Kraft sich weiter zu währen. Es sollte ja doch nichts mehr helfen."
+              },
+              {
+                "type": "Dialogue",
+                "character": "PLF",
+                "parenthetical": "mit einem Säufzen",
+                "text": [
+                  "???????????????",
+                  "!!!!!!!!!!!!!!!",
+                  "Ich war die Katze!"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "type": "song",
+      "item": {
+        "number": 6,
+        "title": "LIKE A BABY",
+        "lyrics": "\n                            # LIKE A BABY\n\n                My father called\n                I was still asleep\n                He told me they are bombing the airport\n                I could not believe it at first\n                I would not believe it at first\n\n                Through the hard times and the good\n                Through the hard times and the good\n                Through the hard times and the good\n                Through the hard times and the good\n                Through the hard times and the good\n                Through the hard times and the good\n\n                But then I heard the jets\n                And I was terrified\n                I felt like a baby\n                I felt like a baby\n\n                A feeling like you can not protect yourself\n                Stick with rational people when things fall apart!\n\n                Everyone brought their cats.\n                Everyone brought their cat.\n                Everyone brought their cat.\n                Everyone brought their cat.\n\n                And I was terrified\n                I felt like a baby\n                I felt like a baby\n                I felt like a baby\n\n                Through the hard times and the good\n                Through the hard times and the good\n\n    ENDE\n\n"
+      }
+    }
+  ]
+}

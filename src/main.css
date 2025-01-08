@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+:root{
+    --background: #f9f9f9;
+    --hightlight: #ccc;
+    --primary: black;
+    /* Color styles */
+--edit-background: rgba(30, 29, 26, 1);
+--edit-highlight: rgba(42, 38, 25, 1);
+--edit-primary: rgba(231, 182, 17, 1);
+
+}
+pre, div {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    margin: 0;
+    white-space: pre;
+    white-space-collapse: always;
+    font-family: Courier;
+}
+
+/* pre.beat:hover,
+pre.song:hover {
+    color: white;
+    background: black;
+}
+
+.scene:hover {
+    color: white;
+    background: black;
+} */
+
+button {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-family: Courier, monospace;
+    font-size: 1rem;
+    transition: all .1s;
+}
+
+button::before,
+button::after {
+    content: "";
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+button::before {
+    content: "[";
+    margin-right: 1rem; /* Add space between [ and the button text */
+}
+
+button::after {
+    content: "]";
+    margin-left: 1rem; /* Add space between ] and the button text */
+}
+
+button:hover {
+    color: white;
+    background: black;
+}
+
+.status {
+    color: green;
+}
+
+.status.error {
+    color: red;
+}

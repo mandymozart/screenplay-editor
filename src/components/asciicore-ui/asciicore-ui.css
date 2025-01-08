@@ -1,0 +1,18 @@
+:root {
+    --asciicore-ui-font: Courier, monospace;
+    --asciicore-ui-primary: black;
+    --asciicore-ui-secondary: pink;
+    --asciicore-ui-background: white;
+    --asciicore-ui-font-size: 1rem;
+    --asciicore-ui-line-height: 1.2rem;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+  }
+  
+::selection {
+color: red;
+background: yellow;
+}

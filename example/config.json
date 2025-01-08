@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Katzenpabst - Das Erwachen",
+    "author": "Tilman Porschütz",
+    "status": "ENTWURF",
+    "date": "November 2024",
+    "basedOn": "Basiert auf Liedern",
+    "basedOnFrom": "Mandy Mozart",
+    "type": "Graphik Novelle"
+  },
+  "layout": {
+    "lineHeight": 4.8,
+    "linePerPage": 55,
+    "marginRight": 10,
+    "marginLeft": 35,
+    "marginTop": 22,
+    "pageNumberMarginTop": 10
+  },
+  "i18n": {
+    "common": {
+      "screenplay": "Drehbuch",
+      "untitled": "Ohne Titel",
+      "writtenBy": "Geschrieben von",
+      "by": "von",
+      "story": "Geschichte",
+      "chapter_one": "Kapitel",
+      "chapter_other": "Kapitel",
+      "scene_one": "Szene",
+      "scene_other": "Szenen",
+      "song_one": "Lied",
+      "song_other": "Lieder",
+      "character_one": "Charakter",
+      "character_other": "Charaktere",
+      "transition_one": "Übergang",
+      "transition_other": "Übergänge",
+      "line_one": "Zeile",
+      "line_other": "Zeilen",
+      "dialogue_one": "Dialog",
+      "dialogue_other": "Dialoge",
+      "action_one": "Regieanweisung",
+      "action_other": "Regieanweisungen",
+      "verse_one": "Strophe",
+      "verse_other": "Strophen",
+      "lyrics": "Liedtexte"
+    }
+  }
+}

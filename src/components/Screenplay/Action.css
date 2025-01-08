@@ -1,0 +1,15 @@
+.action {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+
+.action-content.status-copied {
+    color: green;
+  }
+  
+.action button {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}

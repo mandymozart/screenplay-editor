@@ -1,0 +1,15 @@
+.cover-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Courier, monospace;
+  }
+  
+  .cover-page pre {
+    text-align: center;
+    font-size: var(--asciicore-ui-font-size);
+    white-space: pre-wrap; /* Preserve formatting and allow wrapping */
+    line-height: var(--asciicore-ui-line-height);
+  }
+  

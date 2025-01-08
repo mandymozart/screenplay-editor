@@ -1,0 +1,7 @@
+/* .chapter-header:hover {
+    color: white;
+    background: black;
+} */
+.chapter, .chapter-header {
+    margin-bottom: 1em;
+}
