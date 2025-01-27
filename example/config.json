@@ -8,6 +8,11 @@
     "basedOnFrom": "Mandy Mozart",
     "type": "Graphik Novelle"
   },
+  "report": {
+    "enabled": true,
+    "listDialogues": true
+  },
+  "addReport": true,
   "layout": {
     "lineHeight": 4.8,
     "linePerPage": 55,

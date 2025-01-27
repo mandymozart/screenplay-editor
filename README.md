@@ -9,6 +9,13 @@
 \_______)(_______/|/   \__/(_______/(_______/|/    )_)|/       (_______/|/     \|   \_/
 ```
 
+# Modules
+
+screenplay (lib)
+screenplay-app
+screenplay-cli
+screenplay-server
+
 # Configuration
 
 To build a screenplay, you need to have a folder with your `screenplay.txt` and `config.json`.

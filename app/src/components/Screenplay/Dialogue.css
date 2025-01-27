@@ -1,0 +1,29 @@
+.dialogue {
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.dialogue-content {
+  transition: all 0.5s;
+}
+
+.dialogue-content.status-copied {
+  /* background-color: #d4f4dd;  */
+  color: green;
+}
+
+.status.error {
+  color: red;
+}
+
+.dialogue button {
+  z-index: 1;
+  position: sticky;
+  top: 6rem;
+  right: 0;
+  display: none;
+}
+
+.dialogue:hover button {
+  display: block;
+}

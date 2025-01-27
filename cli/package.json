@@ -1,0 +1,19 @@
+{
+  "name": "screenplayyy-cli",
+  "author": "Tilman Porschuetz",
+  "version": "1.1.0",
+  "description": "CLI for screenplayyy Library. Create standardized screenplays from txt files in your favorite text editor with little annotation.",
+  "type": "module",
+  "bin": {
+    "screenplayyy-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "screenplayyy": "file:../../lib",
+    "inquirer": "^12.3.0",
+    "jspdf": "^2.4.0"
+  },
+  "license": "MIT"
+}
