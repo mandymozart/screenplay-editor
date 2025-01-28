@@ -22,8 +22,16 @@ export function ensureOutputDirectory(screenplayPath, destinationFolderPath) {
 }
 
 export function savePDF(doc, outputDir, title) {
+  console.log(outputDir);
   const sanitizedTitle = title || "Untitled";
   const outputFile = path.join(outputDir, `${sanitizedTitle}.pdf`);
-  doc.save(outputFile);
   console.log(`PDF saved at "${outputFile}".`);
+  doc.save(outputFile);
+}
+
+export function saveMarkdown(content, outputDir, title) {
+  const sanitizedTitle = title || "Untitled";
+  const outputFilePath = path.join(outputDir, `${sanitizedTitle}.md`);
+  fs.writeFileSync(outputFilePath, content);
+  // console.log(`Markdown saved at "${outputFile}".`);
 }

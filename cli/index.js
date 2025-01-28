@@ -1,14 +1,19 @@
-import Screenplayyy from "screenplayyy";
+import Screenplayyy from "../lib/src/index.js";
 import fs from "fs";
 import path from "path";
 import inquirer from "inquirer";
-import { ensureOutputDirectory, savePDF, readScreenplayFile } from "./io.js";
+import {
+  ensureOutputDirectory,
+  savePDF,
+  saveMarkdown,
+  readScreenplayFile,
+} from "./io.js";
 
 // Default demo screenplay content
 const demoScreenplayContent = `\
-    # 1. Chapter 
+# 1. Chapter 
 
-    # Day one
+# Day one
 
 1   SCENE 1
     
@@ -36,15 +41,15 @@ const demoScreenplayContent = `\
 
 ---
 
-    # 2. Chapter
+# 2. Chapter
 
-    # REMATCH
+# REMATCH
 
 3   STREET - NIGHT
 
     ...
 
-    END
+END
 `;
 
 // Default layout configuration
@@ -62,8 +67,6 @@ const scriptRoot = path.resolve(
   path.dirname(new URL(import.meta.url).pathname)
 );
 
-const defaultExampleFolderPath = path.resolve(scriptRoot, "./../../example");
-
 // Function to load the localization file
 function loadLocalization(language) {
   const localizationPath = path.resolve(
@@ -80,23 +83,24 @@ function loadLocalization(language) {
   }
 }
 
+// Default example folder path
+const defaultExampleFolderPath = path.resolve(scriptRoot, "./../../example");
+
 // Function to initialize a new project
 async function initializeProject(targetFolder) {
   try {
-    // Ensure the target folder exists
     if (!fs.existsSync(targetFolder)) {
       fs.mkdirSync(targetFolder, { recursive: true });
       console.log(`Created folder: ${targetFolder}`);
     }
 
-    // Create screenplay.txt if it doesn't exist
     const screenplayPath = path.join(targetFolder, "screenplay.txt");
     if (!fs.existsSync(screenplayPath)) {
       fs.writeFileSync(screenplayPath, demoScreenplayContent);
       console.log(`Created demo screenplay file at ${screenplayPath}`);
     }
 
-    // Prompt user for config values
+    // List available languages for localization
     const availableLanguages = fs
       .readdirSync(path.resolve(scriptRoot, "./locales"))
       .filter((folder) =>
@@ -125,10 +129,10 @@ async function initializeProject(targetFolder) {
       },
     ]);
 
-    // Load the localization file
+    // Load the selected localization file
     const i18nCommon = loadLocalization(answers.language);
 
-    // Build the config object
+    // Build the config object with localization and layout
     const config = {
       meta: {
         title: answers.title,
@@ -145,11 +149,10 @@ async function initializeProject(targetFolder) {
       },
     };
 
-    // Write config.json
+    // Write the config to file
     const configPath = path.join(targetFolder, "config.json");
     fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
     console.log(`Created config file at ${configPath}`);
-
     console.log("Project initialization complete.");
   } catch (err) {
     console.error(
@@ -159,10 +162,43 @@ async function initializeProject(targetFolder) {
   }
 }
 
+// Function to render screenplay as Markdown
+async function renderScreenplayToMarkdown(
+  screenplayPath,
+  config,
+  outputFolderPath
+) {
+  try {
+    const screenplayContent = fs.readFileSync(screenplayPath, "utf-8");
+    const outputDir = ensureOutputDirectory(screenplayPath, outputFolderPath);
+    const screenplay = Screenplayyy.parse(screenplayContent);
+    const markdownContent = Screenplayyy.renderMarkdownFromScreenplay({
+      screenplay,
+      config,
+    });
+    saveMarkdown(markdownContent, outputDir, config.meta.title);
+    console.log(`Screenplay rendered as Markdown at ${outputDir}`);
+  } catch (err) {
+    console.error("Error rendering screenplay to Markdown:", err.message);
+  }
+}
+
+// Function to render screenplay as PDF
+async function renderScreenplayToPDF(screenplayPath, config, outputFolderPath) {
+  try {
+    const script = readScreenplayFile(screenplayPath);
+    const outputDir = ensureOutputDirectory(screenplayPath, outputFolderPath);
+    const doc = Screenplayyy.render({ script, config });
+    savePDF(doc, outputDir, config.meta.title);
+    console.log(`Screenplay rendered as PDF at ${outputDir}`);
+  } catch (err) {
+    console.error("Error rendering screenplay to PDF:", err.message);
+  }
+}
+
 // Main CLI function
 async function main() {
   try {
-    // Prompt the user for input and destination folder paths
     const answers = await inquirer.prompt([
       {
         type: "input",
@@ -178,17 +214,20 @@ async function main() {
           "Enter the path to the folder where the output should be published:",
         default: "published/",
       },
+      {
+        type: "list",
+        name: "action",
+        message: "What would you like to do?",
+        choices: ["Render to PDF", "Render to Markdown"],
+        default: "Render to PDF",
+      },
     ]);
 
     const inputFolderPath = answers.inputFolderPath || defaultExampleFolderPath;
-
-    // Determine the destination folder
-    const usingDefaultExample = inputFolderPath === defaultExampleFolderPath;
-    const destinationFolderPath = usingDefaultExample
-      ? path.resolve(process.cwd(), "published") // Set to the current working directory plus '/published' if using example data
-      : path.resolve(process.cwd(), answers.destinationFolderPath); // Relative to process.cwd()
-
-    // Check if the input folder exists and contains required files
+    const destinationFolderPath = path.resolve(
+      process.cwd(),
+      answers.destinationFolderPath
+    );
     const screenplayPath = path.join(inputFolderPath, "screenplay.txt");
     const configPath = path.join(inputFolderPath, "config.json");
 
@@ -205,28 +244,22 @@ async function main() {
     } else {
       console.log("Existing project found. Proceeding with rendering...");
 
-      // Read and parse the config file
       const configContent = fs.readFileSync(configPath, "utf-8");
       const config = JSON.parse(configContent);
 
-      // Set options object
-
-      // Execute renderScreenplay
-      console.log("Rendering screenplay...");
-
-      const options = {
-        screenplayPath,
-        destinationFolderPath,
-        config,
-      };
-      const script = readScreenplayFile(options);
-      const outputDir = ensureOutputDirectory(
-        screenplayPath,
-        destinationFolderPath
-      );
-      const doc = Screenplayyy.render(script, config);
-      savePDF(doc, outputDir, config.meta.title);
-      console.log("Screenplay rendered successfully.");
+      if (answers.action === "Render to PDF") {
+        await renderScreenplayToPDF(
+          screenplayPath,
+          config,
+          destinationFolderPath
+        );
+      } else if (answers.action === "Render to Markdown") {
+        await renderScreenplayToMarkdown(
+          screenplayPath,
+          config,
+          destinationFolderPath
+        );
+      }
     }
   } catch (err) {
     console.error("An unexpected error occurred:", err.message);
